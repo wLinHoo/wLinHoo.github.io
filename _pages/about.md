@@ -1,58 +1,77 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Pengyu Xue"
+excerpt: "Personal Academic Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research focuses on cutting-edge applications of Large Language Models in software engineering, including code translation, automated program repair, and commit message generation. I have led multiple research projects collaborating with Peking University's key laboratories and published in top-tier venues including IEEE TSE and ISSTA.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.12*: &nbsp;🎉🎉 Awarded Presidential Scholarship (Research Innovation), Shandong University's highest undergraduate honor
+- *2024.10*: &nbsp;🏆 National Scholarship recipient from China's Ministry of Education
+- *2024.10*: &nbsp;📚 Two papers accepted at IEEE TSE
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+[1] **Automated commit message generation with large language models: An empirical study and beyond**  
+**Pengyu Xue**, Lin Wu, Zihan Yu, et al.  
+*IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
+[PDF](https://arxiv.org/pdf/example.pdf) | [Code](https://github.com)
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[2] **Escalating LLM-based code translation benchmarking into the class-level era**  
+**Pengyu Xue**, Lin Wu, Chen Wang, et al.  
+*arXiv preprint arXiv:2411.06145*, 2024  
+[PDF](https://arxiv.org/pdf/2411.06145.pdf) | [Dataset](https://github.com)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+[3] **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
+**Pengyu Xue**, Lin Wu, Zhen Yang, et al.  
+*arXiv preprint arXiv:2410.07516*, 2024 (Under major revision at ISSTA 2025)  
+[PDF](https://arxiv.org/pdf/2410.07516.pdf)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+[4] **A volunteer allocation optimization model for disaster response using improved Dempster–Shafer theory**  
+**Pengyu Xue**, Liguo Fei, Wei Ding  
+*Expert Systems with Applications* (CCF-C Journal, JCR Q1), 2024  
+[PDF](https://doi.org/10.1016/j.eswa.2024.121285)
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024* Presidential Scholarship (Research Innovation) - Top 0.01% at SDU
+- *2024* National Scholarship - Top 0.2% nationally
+- *2024* National Second Prize, "Challenge Cup" Academic Competition
+- *2024* ICM Honorable Mention - Interdisciplinary Contest in Modeling
+- *2023-2024* First-Class Outstanding Student Award (Top 0.8%)
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 Education
+**Shandong University** (ARWU Top 150)  
+*B.Eng in Information Engineering & B.A in Public Administration*  
+Sept 2022 - Present
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 🔬 Research Experience
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+**Automated Commit Message Generation** | *Group Leader*  
+*Peking University & Shandong University* | Advisors: Prof. Zhi Jin (IEEE Fellow), Dr. Zhen Yang  
+- Led first comprehensive evaluation of LLMs for commit message generation
+- Developed ERICommitter framework achieving 49.32% robustness improvement
+- Curated high-quality dataset through multi-step filtering (360+ person-hours)
+
+**LLM Robustness Enhancement for Program Repair** | *Group Leader*  
+*Peking University & Shandong University*  
+- Created MT-LAPR testing framework with 9 metamorphic relations
+- Integrated CodeT5-based model improving code readability by 32%
+
+**Class-Level Code Translation Benchmark** | *Group Leader*  
+*Shandong University*  
+- Built ClassEval-T benchmark covering Python/Java/C++
+- Designed three novel translation strategies for real-world scenarios
+
+# 📊 Academic Activities
+- **Oral Presentation**: China Information Fusion Conference 2023
+- **Poster Presentation**: National Big Data & Social Computing Conference 2024
+- **Research Grants**: 
+  - ¥40,000 from SDU Graduate School (2024)
+  - ¥10,000 National Innovation Program (2024)
