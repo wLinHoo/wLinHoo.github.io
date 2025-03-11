@@ -17,7 +17,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research focuses on cutting-edge applications of Large Language Models in software engineering, including code translation, automated program repair, and commit message generation. I have led multiple research projects collaborating with Peking University's key laboratories and published in top-tier venues including *IEEE Transactions on Software Engineering*.
+# 😉 About Me
+I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research focuses on cutting-edge applications of Large Language Models in software engineering, including code translation, automated program repair, and commit message generation. I have led multiple research projects collaborating with Peking University's key laboratories and published in top-tier venues including *IEEE Transactions on Software Engineering*.<a href='https://scholar.google.com/citations?user=RiFZe1YAAAAJ&hl=en=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations">
+
 # 🔥 News
 - *2024.12*: &nbsp;🎉🎉 Awarded Presidential Scholarship (Research Innovation), Shandong University's highest undergraduate honor!
 - *2024.10*: &nbsp;🏆 National Scholarship recipient from China's Ministry of Education!
@@ -31,7 +33,7 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 *IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
 [[PDF](https://ieeexplore.ieee.org/document/10713474)] | [[Code](https://github.com/Pengyu03/LLM-Commit-Message-Generation)]
 
-[2] **Escalating LLM-based code translation benchmarking into the class-level era**  
+[2] **Escalating LLM-based code translation benchmarking into the Class-level era**  
 **Pengyu Xue**, Linhao Wu, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
 *arXiv preprint arXiv:2411.06145*, 2024  [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
