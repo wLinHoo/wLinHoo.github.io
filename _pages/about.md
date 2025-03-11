@@ -21,9 +21,7 @@ redirect_from:
 I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research focuses on cutting-edge applications of Large Language Models in software engineering, including code translation, automated program repair, and commit message generation. I have led multiple research projects collaborating with Peking University's Key Laboratory of High-Confidence Software Technology and Shandong University's Research Center for Architecture and Embedded Systems, under the guidance of **Prof. Zhen Yang (Shandong University)** and **Prof. Zhi Jin (Peking University, IEEE Fellow)**. I have published in top-tier venues including *IEEE Transactions on Software Engineering* (CCF-A).<a href='https://scholar.google.com/citations?user=RiFZe1YAAAAJ&hl=en=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url|url_encode}}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations">
 
 # 🔥 News
-- *2024.12*: &nbsp;🎉🎉 Awarded Presidential Scholarship (Research Innovation), Shandong University's highest undergraduate honor!
-- *2024.10*: &nbsp;🏆 National Scholarship recipient from China's Ministry of Education!
-- *2024.10*: &nbsp;📚 One paper accepted at *IEEE Transactions on Software Engineering*!
+- *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering*!
 
 # 📝 Publications 
 
