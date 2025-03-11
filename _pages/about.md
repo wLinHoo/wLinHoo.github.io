@@ -35,7 +35,8 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 - Led first comprehensive evaluation of LLMs for commit message generation
 - Developed ERICommitter framework achieving 49.32% robustness improvement
 - Curated high-quality dataset through multi-step filtering (360+ person-hours)
-
+</div>
+</div>
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/ClassT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
@@ -46,7 +47,8 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 
 - Built ClassEval-T benchmark covering Python/Java/C++
 - Designed three novel translation strategies for real-world scenarios
-
+</div>
+</div>
 
 **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
 **Pengyu Xue**, Linhao Wu, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
