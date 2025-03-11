@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 😉 About Me
-I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research focuses on cutting-edge applications of Large Language Models in software engineering, including code translation, automated program repair, and commit message generation. I have led multiple research projects collaborating with Peking University's key laboratories and published in top-tier venues including *IEEE Transactions on Software Engineering*.<a href='https://scholar.google.com/citations?user=RiFZe1YAAAAJ&hl=en=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations">
+I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research focuses on cutting-edge applications of Large Language Models in software engineering, including code translation, automated program repair, and commit message generation. I have led multiple research projects collaborating with Peking University's Key Laboratory of High-Confidence Software Technology and Shandong University's Research Center for Architecture and Embedded Systems, under the guidance of **Prof. Zhen Yang (Shandong University)** and **Prof. Zhi Jin (Peking University, IEEE Fellow)**. I have published in top-tier venues including *IEEE Transactions on Software Engineering* (CCF-A).<a href='https://scholar.google.com/citations?user=RiFZe1YAAAAJ&hl=en=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url|url_encode}}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=Citations">
 
 # 🔥 News
 - *2024.12*: &nbsp;🎉🎉 Awarded Presidential Scholarship (Research Innovation), Shandong University's highest undergraduate honor!
@@ -32,16 +32,28 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 
 *IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
 [[PDF](https://ieeexplore.ieee.org/document/10713474)] | [[Code](https://github.com/Pengyu03/LLM-Commit-Message-Generation)]
+- Led first comprehensive evaluation of LLMs for commit message generation
+- Developed ERICommitter framework achieving 49.32% robustness improvement
+- Curated high-quality dataset through multi-step filtering (360+ person-hours)
+
 
 [2] **Escalating LLM-based code translation benchmarking into the Class-level era**  
 **Pengyu Xue**, Linhao Wu, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
 *arXiv preprint arXiv:2411.06145*, 2024  [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
 
+- Built ClassEval-T benchmark covering Python/Java/C++
+- Designed three novel translation strategies for real-world scenarios
+
+
 [3] **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
 **Pengyu Xue**, Linhao Wu, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
 
 *arXiv preprint arXiv:2410.07516*, 2024 (Under major revision at ISSTA 2025)  [[PDF](https://arxiv.org/pdf/2410.07516.pdf)]
+
+- Created MT-LAPR testing framework with 9 metamorphic relations
+- Integrated CodeT5-based model improving code readability by 32%
+
 
 [4] **A volunteer allocation optimization model for disaster response using improved Dempster–Shafer theory**  
 **Pengyu Xue**, Liguo Fei, Wei Ding  
