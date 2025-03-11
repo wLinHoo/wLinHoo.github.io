@@ -27,7 +27,7 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE 2024</div><img src='images/tse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE 2024</div><img src='images/ClassT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **Automated commit message generation with large language models: An empirical study and beyond**  
