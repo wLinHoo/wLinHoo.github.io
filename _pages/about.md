@@ -27,7 +27,7 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 
 # 📝 Publications 
 
-[1] **Automated commit message generation with large language models: An empirical study and beyond**  
+**Automated commit message generation with large language models: An empirical study and beyond**  
 **Pengyu Xue**, Linhao Wu, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
 
 *IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
@@ -36,8 +36,10 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 - Developed ERICommitter framework achieving 49.32% robustness improvement
 - Curated high-quality dataset through multi-step filtering (360+ person-hours)
 
-
-[2] **Escalating LLM-based code translation benchmarking into the Class-level era**  
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/ITCFN.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**Escalating LLM-based code translation benchmarking into the Class-level era**  
 **Pengyu Xue**, Linhao Wu, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
 *arXiv preprint arXiv:2411.06145*, 2024  [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
@@ -46,7 +48,7 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 - Designed three novel translation strategies for real-world scenarios
 
 
-[3] **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
+**Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
 **Pengyu Xue**, Linhao Wu, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
 
 *arXiv preprint arXiv:2410.07516*, 2024 (Under major revision at ISSTA 2025)  [[PDF](https://arxiv.org/pdf/2410.07516.pdf)]
@@ -55,7 +57,7 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 - Integrated CodeT5-based model improving code readability by 32%
 
 
-[4] **A volunteer allocation optimization model for disaster response using improved Dempster–Shafer theory**  
+**A volunteer allocation optimization model for disaster response using improved Dempster–Shafer theory**  
 **Pengyu Xue**, Liguo Fei, Wei Ding  
 
 *Expert Systems with Applications* (CCF-C Journal, JCR Q1), 2024  [[PDF](https://www.sciencedirect.com/science/article/pii/S0957417423017876)]
