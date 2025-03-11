@@ -67,19 +67,7 @@ I am an undergraduate student pursuing dual degrees in Information Engineering a
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ESWA 2024</div><img src='images/eswa.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**A volunteer allocation optimization model for disaster response using improved Dempster–Shafer theory**  
-**Pengyu Xue**, Liguo Fei, Wei Ding  
 
-*Expert Systems with Applications* (CCF-C Journal, JCR Q1), 2024  [[PDF](https://www.sciencedirect.com/science/article/pii/S0957417423017876)]
-
-- Propose effective methods for conflict evidence fusion based on differential evolution.
-- Consider volunteers’ preferences, competencies and victims’ satisfaction in volunteer assignments.
-- Use linguistic type-2 fuzzy sets and evidence theory to reduce uncertainty in decision-making.
-</div>
-</div>
 
 # 🎖 Honors and Awards
 - *2024* Presidential Scholarship (Research Innovation) - Top 0.01% at SDU
