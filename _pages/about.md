@@ -41,7 +41,7 @@ Sept 2021 - Present
 <div class='paper-box-text' markdown="1">
   
 **Automated commit message generation with large language models: An empirical study and beyond**  
-Pengyu Xue, **Linhao Wu**, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
+Pengyu Xue, <ins>**Linhao Wu**</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
 
 *IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
 [[PDF](https://ieeexplore.ieee.org/document/10713474)] | [[Code](https://github.com/Pengyu03/LLM-Commit-Message-Generation)]
@@ -55,7 +55,7 @@ Pengyu Xue, **Linhao Wu**, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Ya
 <div class='paper-box-text' markdown="1">
   
 **Escalating LLM-based code translation benchmarking into the Class-level era**  
-Pengyu Xue, **Linhao Wu**, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
+Pengyu Xue, <ins>**Linhao Wu**</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
 *arXiv preprint arXiv:2411.06145*, 2024  [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
 
@@ -68,7 +68,7 @@ Pengyu Xue, **Linhao Wu**, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia
 <div class='paper-box-text' markdown="1">
   
 **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
-Pengyu Xue, **Linhao Wu**, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
+Pengyu Xue, <ins>**Linhao Wu**</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
 
 *arXiv preprint arXiv:2410.07516*, 2024 (Under major revision at ISSTA 2025)  [[PDF](https://arxiv.org/pdf/2410.07516.pdf)]
 
