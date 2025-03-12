@@ -85,7 +85,19 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 - *2022-2023* New 120th Anniversary Social Scholarship, Shandong University (Top 0.5%)
 - *2022-2023* First-Class Outstanding Student Award, Shandong University (Top 0.8%)
 
+# 🏢 Internship Experience
+- ### **Shandong University – Research Center for Architecture and Embedded Systems**  
+  - **Position**: Research Assistant  
+  - **Project**: Architecture and Embedded Systems  
+
+- ### **Shandong University – Smart National Governance Laboratory**  
+  - **Position**: Research Assistant  
+  - **Project**: Smart National Governance  
 
 # 📊 Academic Activities
 - **Oral Presentation**: China Information Fusion Conference 2023
 - **Poster Presentation**: National Big Data & Social Computing Conference 2024
+
+<div align="center" style="width:180px; height:180px;">
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=tpWJjuXLG-JA1CgI6Jnx9fXdclNeQ_KhN-tcDYi01o8"></script>
+</div>
