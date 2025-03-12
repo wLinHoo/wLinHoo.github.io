@@ -41,7 +41,7 @@ Sept 2021 - Present
 <div class='paper-box-text' markdown="1">
   
 **Automated commit message generation with large language models: An empirical study and beyond**  
-Pengyu Xue^*^, <ins>**Linhao Wu<sup>*</sup>**</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
+Pengyu Xue*, <ins>**Linhao Wu<***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
 
 *IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
 [[PDF](https://ieeexplore.ieee.org/document/10713474)] | [[Code](https://github.com/Pengyu03/LLM-Commit-Message-Generation)]
