@@ -29,9 +29,10 @@ I have published in **top-tier venues** including *IEEE Transactions on Software
 # 📖 Education
 **Shandong University** (ARWU Top 101-150)  
 *B.Eng in Information Engineering & B.A in Public Administration*  
-Sept 2022 - Present
+Sept 2021 - Present
 
 # 🔥 News
+- *2024.10*: &nbsp;🎉🎉 One paper received Major Revesion at *ISSTA'25*!
 - *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering*!
 
 # 📝 Publications 
@@ -40,7 +41,7 @@ Sept 2022 - Present
 <div class='paper-box-text' markdown="1">
   
 **Automated commit message generation with large language models: An empirical study and beyond**  
-**Pengyu Xue**, Linhao Wu, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
+Pengyu Xue, **Linhao Wu**, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
 
 *IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
 [[PDF](https://ieeexplore.ieee.org/document/10713474)] | [[Code](https://github.com/Pengyu03/LLM-Commit-Message-Generation)]
@@ -54,7 +55,7 @@ Sept 2022 - Present
 <div class='paper-box-text' markdown="1">
   
 **Escalating LLM-based code translation benchmarking into the Class-level era**  
-**Pengyu Xue**, Linhao Wu, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
+Pengyu Xue, **Linhao Wu**, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
 *arXiv preprint arXiv:2411.06145*, 2024  [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
 
@@ -67,7 +68,7 @@ Sept 2022 - Present
 <div class='paper-box-text' markdown="1">
   
 **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
-**Pengyu Xue**, Linhao Wu, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
+Pengyu Xue, **Linhao Wu**, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
 
 *arXiv preprint arXiv:2410.07516*, 2024 (Under major revision at ISSTA 2025)  [[PDF](https://arxiv.org/pdf/2410.07516.pdf)]
 
