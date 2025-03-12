@@ -78,18 +78,12 @@ Pengyu Xue, **Linhao Wu**, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Sh
 </div>
 
 
-
 # 🎖 Honors and Awards
-- *2024* Presidential Scholarship (Research Innovation) - Top 0.01% at SDU
-- *2024* National Scholarship - Top 0.2% nationally
-- *2024* National Second Prize, "Challenge Cup" Academic Competition
 - *2024* ICM Honorable Mention - Interdisciplinary Contest in Modeling
-- *2023-2024* First-Class Outstanding Student Award (Top 0.8%)
+- *2022-2023* New 120th Anniversary Social Scholarship, Shandong University (Top 0.5%)
+- *2022-2023* First-Class Outstanding Student Award, Shandong University (Top 0.8%)
 
 
 # 📊 Academic Activities
 - **Oral Presentation**: China Information Fusion Conference 2023
 - **Poster Presentation**: National Big Data & Social Computing Conference 2024
-- **Research Grants**: 
-  - ¥40,000 from SDU Graduate School (2024)
-  - ¥10,000 National Innovation Program (2024)
