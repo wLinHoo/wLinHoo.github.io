@@ -80,7 +80,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 </div>
 
 
-# 🎖 Honors and Awards
+# 🏆 Honors and Awards
 - *2024* ICM Honorable Mention - Interdisciplinary Contest in Modeling
 - *2022-2023* New 120th Anniversary Social Scholarship, Shandong University (Top 0.5%)
 - *2022-2023* First-Class Outstanding Student Award, Shandong University (Top 0.8%)
