@@ -32,7 +32,7 @@ I have published in **top-tier venues** including *IEEE Transactions on Software
 Sept 2021 - Present
 
 # 🔥 News
-- *2024.10*: &nbsp;🎉🎉 One paper received Major Revesion at *ISSTA'25*!
+- *2024.12*: &nbsp;🎉🎉 One paper received Major Revesion at *ISSTA'25*!
 - *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering*!
 
 # 📝 Publications 
