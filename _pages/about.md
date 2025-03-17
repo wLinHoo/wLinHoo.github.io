@@ -63,6 +63,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxia
 
 - Built ClassEval-T benchmark covering Python/Java/C++
 - Designed three novel translation strategies for real-world scenarios
+- A manual analysis of more than 1200 failure cases summarizes the common types of errors that LLMs makes in class-level code translation tasks
 </div>
 </div>
 
