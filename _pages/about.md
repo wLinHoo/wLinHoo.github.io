@@ -24,7 +24,7 @@ I have led multiple research projects in collaboration with **Shandong Universit
 
 I have published in **top-tier venues** including *IEEE Transactions on Software Engineering* (CCF-A). 
 
-<span style="color:red">🔥 I am actively looking for a Ph.D. position in AI for Software Engineering (AI4SE). 🔥</span>
+<span style="color:red">🔥 I am actively looking for a Ph.D./Master position in AI for Software Engineering (AI4SE). 🔥</span>
 
 # 📖 Education
 **Shandong University** (ARWU Top 101-150)  
