@@ -47,9 +47,9 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi 
 
 *IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
 [[PDF](https://ieeexplore.ieee.org/document/10713474)] | [[Code](https://github.com/Pengyu03/LLM-Commit-Message-Generation)]
+- Curated high-quality dataset through multi-step filtering
 - Led first comprehensive evaluation of LLMs for commit message generation
-- Developed ERICommitter framework achieving 49.32% robustness improvement
-- Curated high-quality dataset through multi-step filtering (360+ person-hours)
+- A context-learning framework based on retrieval, ERICommiter, was developed to significantly improve efficiency and performance in CMG tasks
 </div>
 </div>
 
@@ -61,7 +61,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxia
 
 *arXiv preprint arXiv:2411.06145*, 2024 (Under major revision at ISSTA 2025) [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
 
-- Built ClassEval-T benchmark covering Python/Java/C++
+- Built ClassEval-T benchmark covering Python/Java/C++ (360+ person-hours)
 - Designed three novel translation strategies for real-world scenarios
 - A manual analysis of more than 1200 failure cases summarizes the common types of errors that LLMs makes in class-level code translation tasks
 </div>
@@ -76,7 +76,8 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 *arXiv preprint arXiv:2410.07516*, 2024 [[PDF](https://arxiv.org/pdf/2410.07516.pdf)]
 
 - Created MT-LAPR testing framework with 9 metamorphic relations
-- Integrated CodeT5-based model improving code readability by 32%
+- Tested LLMs and ultimately revealed their robustness deficiencies in the APR task.
+- Integrated CodeT5-based model improving code readability and LLMs' robustness by 49.32%
 </div>
 </div>
 
