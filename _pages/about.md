@@ -88,11 +88,11 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 # 🏢 Internship Experience
 - ### **Shandong University – Research Center for Architecture and Embedded Systems**  
   - **Position**: Research Assistant  
-  - **Project**: Architecture and Embedded Systems  
+  - **Project**: Automated Commit Message Generation with Large Language Models; Class-Level Code Translation Benchmark: ClassEval-T  
 
 - ### **Shandong University – Smart National Governance Laboratory**  
   - **Position**: Research Assistant  
-  - **Project**: Smart National Governance  
+  - **Project**: AI-Driven Dynamic Decision-Making for Catastrophic Emergency Response  
 
 # 📊 Academic Activities
 - **Oral Presentation**: China Information Fusion Conference 2023
