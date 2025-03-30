@@ -32,7 +32,7 @@ I have published in **top-tier venues** including *IEEE Transactions on Software
 Sept 2021 - Present
 
 # 🔥 News
-- *2024.12*: &nbsp;🎉🎉 One paper received Major Revesion at *ISSTA'25*!
+- *2025.03*: &nbsp;🎉🎉 One paper accepted to *ISSTA'25*!
 - *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering*!
 
 # 📝 Publications 
@@ -59,7 +59,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi 
 **Escalating LLM-based code translation benchmarking into the Class-level era**  
 Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
-*arXiv preprint arXiv:2411.06145*, 2024 (Under major revision at ISSTA 2025) [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
+*arXiv preprint arXiv:2411.06145*, 2024 (Accepted to ISSTA 2025) [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
 
 - Built ClassEval-T benchmark covering Python/Java/C++ (360+ person-hours)
 - Designed three novel translation strategies for real-world scenarios
