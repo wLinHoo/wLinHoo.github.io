@@ -61,7 +61,6 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxia
 
 *arXiv preprint arXiv:2411.06145*, 2024 (Accepted to ISSTA 2025) 
 [[PDF](https://arxiv.org/pdf/2411.06145.pdf)] | [[Code](https://github.com/wLinHoo/ClassEval-T)]
-
 - Built ClassEval-T benchmark covering Python/Java/C++ (360+ person-hours)
 - Designed three novel translation strategies for real-world scenarios
 - A manual analysis of more than 1200 failure cases summarizes the common types of errors that LLMs makes in class-level code translation tasks
