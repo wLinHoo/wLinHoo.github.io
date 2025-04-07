@@ -59,7 +59,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi 
 **Escalating LLM-based code translation benchmarking into the Class-level era**  
 Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
-*arXiv preprint arXiv:2411.06145*, 2024 (Accepted to ISSTA 2025) [[PDF](https://arxiv.org/pdf/2411.06145.pdf)]
+*arXiv preprint arXiv:2411.06145*, 2024 (Accepted to ISSTA 2025) [[PDF](https://arxiv.org/pdf/2411.06145.pdf)] | [[Code](https://github.com/wLinHoo/ClassEval-T)]
 
 - Built ClassEval-T benchmark covering Python/Java/C++ (360+ person-hours)
 - Designed three novel translation strategies for real-world scenarios
