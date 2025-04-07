@@ -56,7 +56,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISSTA 2025</div><img src='images/ClassT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-**Escalating LLM-based code translation benchmarking into the Class-level era**  
+**ClassEval-T: Evaluating Large Language Models in Class-Level Code Translation**  
 Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
 *arXiv preprint arXiv:2411.06145*, 2024 (Accepted to ISSTA 2025) 
