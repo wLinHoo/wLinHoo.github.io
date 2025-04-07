@@ -32,8 +32,8 @@ I have published in **top-tier venues** including *IEEE Transactions on Software
 Sept 2021 - Present
 
 # 🔥 News
-- *2025.03*: &nbsp;🎉🎉 One paper accepted to *ISSTA'25*!
-- *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering*!
+- *2025.03*: &nbsp;🎉🎉 One paper accepted to *the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'25)*!
+- *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering (TSE 2024)*!
 
 # 📝 Publications 
 
@@ -53,7 +53,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/ClassT.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISSTA 2025</div><img src='images/ClassT.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **Escalating LLM-based code translation benchmarking into the Class-level era**  
