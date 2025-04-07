@@ -101,5 +101,5 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 - **Poster Presentation**: National Big Data & Social Computing Conference 2024
 
 <div align="center" style="width:180px; height:180px;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=tpWJjuXLG-JA1CgI6Jnx9fXdclNeQ_KhN-tcDYi01o8"></script>
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=VyKDMn16TYZSW5UsOLr1LSBU4S3mAARf2IDYDV0u0ew"></script>
 </div>
