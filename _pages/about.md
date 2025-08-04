@@ -20,7 +20,7 @@ redirect_from:
 # 😉 About Me
 I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research interests lie in the intersection of **Large Language Models (LLMs) and Software Engineering**, particularly in **code translation, automated program repair, and automated program understanding**.  
 
-I have led multiple research projects in collaboration with **Shandong University's Research Center for Architecture and Embedded Systems** and **Shandong University's Smart National Governance Laboratory**, under the guidance of [**Dr. Zhen Yang**](https://yz1019117968.github.io/mark.github.io/) and [**Prof. Liguo Fei**](https://faculty.sdu.edu.cn/feiliguo/zh_CN/index.htm). Additionally, my work has been fortunate to receive guidance from [**Prof. Zhi Jin**](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN&oi=ao) and [**Prof. Ge Li**](https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&hl=zh-CN) at [**Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)**](https://hcst.pku.edu.cn/). I will soon begin my Master's studies at Peking University, advised by [**Prof. Dan Hao**](https://scholar.google.com.hk/citations?hl=zh-CN&user=34W2ZrMAAAAJ)
+I have led multiple research projects in collaboration with **Shandong University's Research Center for Architecture and Embedded Systems** and **Shandong University's Smart National Governance Laboratory**, under the guidance of [**Dr. Zhen Yang**](https://yz1019117968.github.io/mark.github.io/) and [**Prof. Liguo Fei**](https://faculty.sdu.edu.cn/feiliguo/zh_CN/index.htm). Additionally, my work has been fortunate to receive guidance from [**Prof. Zhi Jin**](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN&oi=ao) and [**Prof. Ge Li**](https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&hl=zh-CN) at [**Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)**](https://hcst.pku.edu.cn/). I will soon begin my Master's studies at Peking University, advised by [**Prof. Dan Hao**](https://scholar.google.com.hk/citations?hl=zh-CN&user=34W2ZrMAAAAJ).
 
 I have published in **top-tier venues** including *IEEE Transactions on Software Engineering* (CCF-A), and the ACM SIGSOFT International Symposium on Software Testing and Analysis *(ISSTA 2025)* (CCF-A). 
 
@@ -59,8 +59,8 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi 
 **ClassEval-T: Evaluating Large Language Models in Class-Level Code Translation**  
 Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
 
-*ISSTA 2025* (CCF-A Conference)， 2025
-[[PDF](https://arxiv.org/pdf/2411.06145.pdf)] | [[Code](https://github.com/wLinHoo/ClassEval-T)]
+*ISSTA 2025* (CCF-A Conference)，2025
+[[PDF](https://dl.acm.org/doi/pdf/10.1145/3728940)] | [[Code](https://github.com/wLinHoo/ClassEval-T)]
 - Built ClassEval-T benchmark covering Python/Java/C++ (360+ person-hours)
 - Designed three novel translation strategies for real-world scenarios
 - A manual analysis of more than 1200 failure cases summarizes the common types of errors that LLMs makes in class-level code translation tasks
