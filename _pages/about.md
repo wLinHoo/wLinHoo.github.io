@@ -18,13 +18,13 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 😉 About Me
-I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research interests lie in the intersection of **Large Language Models (LLMs) and Software Engineering**, particularly in **code translation, automated program repair, and automated program understanding**.  
+<span style="font-size: 18px"> I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research interests lie in the intersection of **Large Language Models (LLMs) and Software Engineering**, particularly in **code translation, automated program repair, and automated program understanding**.  </span>
 
-I have led multiple research projects in collaboration with **Shandong University's Research Center for Architecture and Embedded Systems** and **Shandong University's Smart National Governance Laboratory**, under the guidance of [**Dr. Zhen Yang**](https://yz1019117968.github.io/mark.github.io/) and [**Prof. Liguo Fei**](https://faculty.sdu.edu.cn/feiliguo/zh_CN/index.htm). Additionally, my work has been fortunate to receive guidance from [**Prof. Zhi Jin**](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN&oi=ao) and [**Prof. Ge Li**](https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&hl=zh-CN) at [**Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)**](https://hcst.pku.edu.cn/). I will soon begin my Master's studies at **Peking University**, advised by [**Prof. Dan Hao**](https://scholar.google.com.hk/citations?hl=zh-CN&user=34W2ZrMAAAAJ).
+<span style="font-size: 18px"> I have led multiple research projects in collaboration with **Shandong University's Research Center for Architecture and Embedded Systems** and **Shandong University's Smart National Governance Laboratory**, under the guidance of [**Dr. Zhen Yang**](https://yz1019117968.github.io/mark.github.io/) and [**Prof. Liguo Fei**](https://faculty.sdu.edu.cn/feiliguo/zh_CN/index.htm). Additionally, my work has been fortunate to receive guidance from [**Prof. Zhi Jin**](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN&oi=ao) and [**Prof. Ge Li**](https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&hl=zh-CN) at [**Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)**](https://hcst.pku.edu.cn/). I will soon begin my Master's studies at **Peking University**, advised by [**Prof. Dan Hao**](https://scholar.google.com.hk/citations?hl=zh-CN&user=34W2ZrMAAAAJ). </span>
 
-I have published in **top-tier venues** including *IEEE Transactions on Software Engineering* (CCF-A), and the ACM SIGSOFT International Symposium on Software Testing and Analysis *(ISSTA 2025)* (CCF-A). 
+<span style="font-size: 18px"> I have published in **top-tier venues** including *IEEE Transactions on Software Engineering* (CCF-A), and the ACM SIGSOFT International Symposium on Software Testing and Analysis *(ISSTA 2025)* (CCF-A). </span>
 
-<span style="font-size: 20px; color:red">🔥 I am actively looking for a Internship position in AI/LLM/AI4SE. 🔥</span> 
+<span style="font-size: 18px; color:red">🔥 I am actively looking for a Internship position in AI/LLM/AI4SE. 🔥</span> 
 
 # 📖 Education
 **Shandong University** (ARWU Top 101-150)  
