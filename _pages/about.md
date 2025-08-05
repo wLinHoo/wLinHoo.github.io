@@ -37,7 +37,7 @@ Sept 2021 - Present
 
 # 📝 Publications 
 
-<span style="color:#10B981"> <sup>*</sup> Equal contribution </span>
+<span style="color:#5E81AC"> <sup>*</sup> Equal contribution </span>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE 2024</div><img src='images/tse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
