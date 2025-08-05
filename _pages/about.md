@@ -24,7 +24,7 @@ I have led multiple research projects in collaboration with **Shandong Universit
 
 I have published in **top-tier venues** including *IEEE Transactions on Software Engineering* (CCF-A), and the ACM SIGSOFT International Symposium on Software Testing and Analysis *(ISSTA 2025)* (CCF-A). 
 
-<span style="color:red">🔥 I am actively looking for a Internship position in AI/LLM/AI4SE. 🔥</span>
+<span style="font-size: 20px; color:red">🔥 I am actively looking for a Internship position in AI/LLM/AI4SE. 🔥</span> 
 
 # 📖 Education
 **Shandong University** (ARWU Top 101-150)  
