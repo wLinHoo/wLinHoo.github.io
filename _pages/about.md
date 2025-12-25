@@ -32,6 +32,7 @@ redirect_from:
 Sept 2021 - Present
 
 # 🔥 News
+- *2025.12*: &nbsp;🎉🎉 One paper accepted to *the ACM International Conference on the Foundations of Software Engineering (FSE'26)*!
 - *2025.03*: &nbsp;🎉🎉 One paper accepted to *the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'25)*!
 - *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering (TSE 2024)*!
 
