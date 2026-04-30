@@ -68,7 +68,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxia
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/icsme.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2026</div><img src='images/debugrepair.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **DebugRepair: Enhancing LLM-Based Automated Program Repair via Self-Directed Debugging**  
@@ -82,7 +82,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxia
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2026</div><img src='images/icsme.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/icsme.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
 **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
