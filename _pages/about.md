@@ -71,6 +71,20 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxia
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/icsme.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
+**DebugRepair: Enhancing LLM-Based Automated Program Repair via Self-Directed Debugging**  
+<ins>**Linhao Wu**</ins>, Yifei Pei, Zhen Yang, Kainan Li, Zhonghang Lu, Hao Tan, Xiran Lyu, Jia Li, Yizhou Chen, Pengyu Xue, Kunwu Zheng, Dan Hao.
+
+*arXiv preprint arXiv:2604.19305*, 2026 [[PDF]([https://arxiv.org/pdf/2410.07516.pdf](https://arxiv.org/abs/2604.19305))]
+
+- Proposed DebugRepair, a self-directed debugging framework that enhances LLM-based automated program repair
+- Designed a debugging-driven repair pipeline combining test semantic purification, simulated instrumentation, and conversational patch refinement
+- Achieved state-of-the-art performance across Defects4J, QuixBugs, and HumanEval-Java, fixing 224 Defects4J bugs with GPT-3.5
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2026</div><img src='images/icsme.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
 **Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
 Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
 
