@@ -74,7 +74,7 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxia
 **DebugRepair: Enhancing LLM-Based Automated Program Repair via Self-Directed Debugging**  
 <ins>**Linhao Wu**</ins>, Yifei Pei, Zhen Yang, Kainan Li, Zhonghang Lu, Hao Tan, Xiran Lyu, Jia Li, Yizhou Chen, Pengyu Xue, Kunwu Zheng, Dan Hao.
 
-*arXiv preprint arXiv:2604.19305*, 2026 [[PDF]([https://arxiv.org/pdf/2410.07516.pdf](https://arxiv.org/abs/2604.19305))]
+*arXiv preprint arXiv:2604.19305*, 2026 [[PDF](https://arxiv.org/pdf/2604.19305)]
 
 - Proposed DebugRepair, a self-directed debugging framework that enhances LLM-based automated program repair
 - Designed a debugging-driven repair pipeline combining test semantic purification, simulated instrumentation, and conversational patch refinement
