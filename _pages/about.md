@@ -28,7 +28,7 @@ redirect_from:
 
 # 📖 Education
 **Peking University**
-*M.Eng/M.S. in Computer Science and Technology*
+*M.S. in Computer Science and Technology*
 2026 - Present
 
 **Shandong University** 
