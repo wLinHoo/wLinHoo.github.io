@@ -28,11 +28,15 @@ redirect_from:
 
 # 📖 Education
 **Peking University**
+
 *M.S. in Computer Science and Technology*
+
 2026 - Present
 
 **Shandong University** 
+
 *B.Eng in Information Engineering & B.A in Public Administration*  
+
 2021 - 2026
 
 # 🔥 News
