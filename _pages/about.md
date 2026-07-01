@@ -27,17 +27,13 @@ redirect_from:
 <span style="font-size: 16px; color:red">🔥 I am actively looking for a Internship position in AI/LLM/AI4SE. 🔥</span> 
 
 # 📖 Education
-**Peking University**
+**Peking University** (2026 - Present)
 
 *M.S. in Computer Science and Technology*
 
-2026 - Present
-
-**Shandong University** 
+**Shandong University** (2021 - 2026)
 
 *B.Eng in Information Engineering & B.A in Public Administration*  
-
-2021 - 2026
 
 # 🔥 News
 - *2026.06*: &nbsp;🎉🎉 One paper accepted to *the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'26)*!
