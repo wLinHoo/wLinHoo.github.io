@@ -104,6 +104,8 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 
 # 🏆 Honors and Awards
 
+- *2026* Honorary Bachelor's Degree, Shandong University
+- *2026* Outstanding Graduate, Shandong University
 - *2025* Presidential Scholarship Candidate – Research Innovation Category, Shandong University (Top 0.1%)
 - *2024* ICM Honorable Mention - Interdisciplinary Contest in Modeling
 - *2022-2023* New 120th Anniversary Social Scholarship, Shandong University (Top 0.5%)
