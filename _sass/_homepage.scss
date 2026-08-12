@@ -1,36 +1,27 @@
-@font-face {
-  font-family: "Manrope";
-  font-style: normal;
-  font-weight: 400 800;
-  font-display: swap;
-  src: url("/assets/fonts/homepage/manrope-latin-variable.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Source Sans 3";
-  font-style: normal;
-  font-weight: 400 700;
-  font-display: swap;
-  src: url("/assets/fonts/homepage/source-sans-3-latin-variable.woff2") format("woff2");
-}
-
-$home-canvas: #fff;
-$home-surface: #fbfdfc;
-$home-ink: #18211f;
-$home-muted: #3f4b47;
-$home-sage: #6f9487;
-$home-blue: #6f97b2;
-$home-border: #dce8e3;
-$home-red: #a54f4f;
+$home-body-font: Georgia, "Times New Roman", Times, serif;
+$home-ui-font: "Arial Rounded MT Bold", Verdana, Arial, sans-serif;
+$home-canvas: #f3f4f3;
+$home-paper: #fff;
+$home-surface: #f8faf9;
+$home-strong: #111;
+$home-ink: #222;
+$home-muted: #595f5c;
+$home-sage: #557d70;
+$home-blue: #173f8f;
+$home-blue-dark: #0c2d6a;
+$home-border: #d9ddda;
+$home-red: #a14343;
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
+body.editorial-homepage {
   color: $home-ink;
   background: $home-canvas;
-  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+  font-family: $home-body-font;
+  font-size: 16px;
+  line-height: 1.58;
 }
 
 a:focus-visible,
@@ -45,10 +36,10 @@ button:focus-visible {
   left: 0.75rem;
   z-index: 100;
   padding: 0.7rem 1rem;
-  color: $home-surface;
+  color: $home-paper;
   border-radius: 10px;
   background: $home-ink;
-  font-family: "Manrope", "Segoe UI", sans-serif;
+  font-family: $home-ui-font;
   font-size: 0.85rem;
   font-weight: 700;
   text-decoration: none;
@@ -56,17 +47,21 @@ button:focus-visible {
   transition: transform 160ms ease;
 
   &:focus {
-    color: $home-surface;
+    color: $home-paper;
     transform: translateY(0);
   }
 }
 
-.masthead {
-  border-color: rgba($home-border, 0.9);
-  background: rgba($home-surface, 0.9);
-  box-shadow: 0 8px 24px rgba(45, 69, 63, 0.04);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+.editorial-homepage .masthead {
+  border-color: $home-border;
+  background: rgba($home-paper, 0.97);
+  box-shadow: none;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  .masthead__inner-wrap {
+    max-width: 80rem;
+  }
 
   .greedy-nav {
     background: transparent;
@@ -74,11 +69,11 @@ button:focus-visible {
 
   .masthead__menu-item a {
     position: relative;
-    color: $home-muted;
-    font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.82rem;
-    font-weight: 600;
-    letter-spacing: -0.01em;
+    color: #202124;
+    font-family: $home-ui-font;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0;
     transition: color 180ms ease;
 
     &::after {
@@ -88,7 +83,7 @@ button:focus-visible {
       left: 1em;
       height: 2px;
       content: "";
-      background: $home-sage;
+      background: $home-blue;
       border-radius: 999px;
       opacity: 0;
       transform: scaleX(0.4);
@@ -97,7 +92,7 @@ button:focus-visible {
 
     &:hover,
     &[aria-current="location"] {
-      color: $home-ink;
+      color: $home-blue-dark;
     }
 
     &[aria-current="location"]::after {
@@ -107,16 +102,23 @@ button:focus-visible {
   }
 
   .greedy-nav button {
-    background: $home-sage;
+    background: $home-blue;
   }
 }
 
-#main {
+.editorial-homepage #main {
+  width: calc(100% - 2rem);
   max-width: 80rem;
-  padding-top: clamp(1.25rem, 2.5vw, 2rem);
+  margin: clamp(1rem, 2vw, 1.5rem) auto 3rem;
+  padding: clamp(1.35rem, 3vw, 2.35rem);
+  border: 1px solid $home-border;
+  border-radius: 12px;
+  background: $home-paper;
+  box-shadow: 0 12px 34px rgba(25, 35, 31, 0.055);
+  box-sizing: border-box;
 }
 
-.page {
+.editorial-homepage .page {
   min-width: 0;
 
   .page__inner-wrap,
@@ -125,35 +127,37 @@ button:focus-visible {
   }
 
   .page__content {
-    font-size: 1.04rem;
+    max-width: 56.25rem;
+    font-size: 1.03rem;
   }
 }
 
-.sidebar {
+.editorial-homepage .sidebar {
   .profile_box {
     padding: 1.1rem;
-    border: 1px solid rgba($home-border, 0.95);
-    border-radius: 22px;
-    background: rgba($home-surface, 0.76);
-    box-shadow: 0 14px 36px rgba(56, 78, 72, 0.06);
+    border: 1px solid $home-border;
+    border-radius: 16px;
+    background: $home-surface;
+    box-shadow: 0 7px 18px rgba(25, 35, 31, 0.045);
   }
 
   .author__avatar img {
     padding: 0;
-    border: 4px solid rgba($home-surface, 0.96);
+    border: 4px solid $home-paper;
     box-shadow: 0 8px 24px rgba(49, 77, 69, 0.12);
   }
 
   .author__name {
     color: $home-ink;
-    font-family: "Manrope", "Segoe UI", sans-serif;
-    font-weight: 750;
-    letter-spacing: -0.035em;
+    font-family: $home-ui-font;
+    font-weight: 800;
+    letter-spacing: 0;
   }
 
   .author__bio,
   .author__urls {
-    color: $home-muted;
+    color: #333;
+    font-family: $home-ui-font;
   }
 
   .author__bio,
@@ -169,17 +173,17 @@ button:focus-visible {
   }
 
   .author__urls a {
-    color: $home-muted;
+    color: #333;
 
     &:hover {
-      color: darken($home-blue, 12%);
-      text-decoration: none;
+      color: $home-blue;
+      text-decoration: underline;
     }
   }
 }
 
 .research-home {
-  --card-shadow: 0 18px 42px rgba(56, 78, 72, 0.07);
+  --card-shadow: 0 10px 24px rgba(28, 40, 35, 0.075);
   width: 100%;
 
   * {
@@ -190,9 +194,9 @@ button:focus-visible {
   h2,
   h3,
   h4 {
-    color: $home-ink;
-    font-family: "Manrope", "Segoe UI", sans-serif;
-    line-height: 1.18;
+    color: $home-strong;
+    font-family: $home-body-font;
+    line-height: 1.25;
   }
 
   h1,
@@ -207,9 +211,13 @@ button:focus-visible {
   }
 
   a {
-    color: darken($home-blue, 12%);
-    text-decoration-color: rgba($home-blue, 0.5);
+    color: $home-blue;
+    text-decoration-color: rgba($home-blue, 0.45);
     text-underline-offset: 0.18em;
+
+    &:hover {
+      color: $home-blue-dark;
+    }
   }
 }
 
@@ -224,9 +232,9 @@ button:focus-visible {
 .section-eyebrow,
 .experience-role,
 .archive-year {
-  color: darken($home-sage, 8%);
-  font-family: "Manrope", "Segoe UI", sans-serif;
-  font-size: 0.72rem;
+  color: $home-blue;
+  font-family: $home-ui-font;
+  font-size: 0.76rem;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -240,7 +248,7 @@ button:focus-visible {
 }
 
 .home-section {
-  padding: clamp(2.75rem, 5vw, 3.5rem) 0 0;
+  padding: clamp(2.15rem, 4vw, 2.8rem) 0 0;
   scroll-margin-top: 5.5rem;
 }
 
@@ -249,15 +257,16 @@ button:focus-visible {
 }
 
 .section-heading {
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 1px solid rgba($home-border, 0.95);
+  margin-bottom: 1rem;
+  padding-bottom: 0.38rem;
+  border-bottom: 1px solid $home-border;
 
   h2 {
     margin: 0;
-    font-size: clamp(1.45rem, 2.8vw, 1.8rem);
-    font-weight: 720;
-    letter-spacing: -0.035em;
+    color: $home-blue;
+    font-size: clamp(1.42rem, 2.5vw, 1.64rem);
+    font-weight: 700;
+    letter-spacing: -0.018em;
   }
 }
 
@@ -266,14 +275,14 @@ button:focus-visible {
 
   p {
     margin-bottom: 0.85rem;
-    color: $home-muted;
-    font-size: 1.04rem;
-    line-height: 1.65;
+    color: $home-ink;
+    font-size: 1.03rem;
+    line-height: 1.62;
     text-wrap: pretty;
   }
 
   strong {
-    color: $home-ink;
+    color: $home-strong;
   }
 }
 
@@ -281,14 +290,14 @@ button:focus-visible {
   max-width: 56rem;
   margin: 1.1rem 0 0;
   padding: 0.35rem 0 0.35rem 0.9rem;
-  color: darken($home-sage, 14%);
-  border-left: 3px solid rgba($home-sage, 0.7);
-  font-weight: 600;
+  color: #244e40;
+  border-left: 3px solid rgba($home-sage, 0.72);
+  font-weight: 700;
   line-height: 1.5;
 }
 
 .resume-list {
-  border-top: 1px solid rgba($home-border, 0.62);
+  border-top: 1px solid $home-border;
 }
 
 .resume-row {
@@ -301,9 +310,9 @@ button:focus-visible {
   border-bottom: 1px solid rgba($home-border, 0.75);
 
   time {
-    color: darken($home-blue, 12%);
-    font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.79rem;
+    color: $home-blue;
+    font-family: $home-ui-font;
+    font-size: 0.8rem;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
   }
@@ -314,13 +323,14 @@ button:focus-visible {
 
   h3 {
     margin: 0 0 0.15rem;
-    font-size: 1.04rem;
+    color: $home-strong;
+    font-size: 1.08rem;
     font-weight: 700;
   }
 
   p {
     margin: 0;
-    color: $home-muted;
+    color: $home-ink;
     line-height: 1.5;
   }
 }
@@ -343,64 +353,126 @@ button:focus-visible {
   }
 
   time {
-    color: darken($home-blue, 10%);
-    font-family: "Manrope", "Segoe UI", sans-serif;
+    color: $home-blue;
+    font-family: $home-ui-font;
     font-size: 0.82rem;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
   }
 
   span {
-    color: $home-muted;
+    color: $home-ink;
   }
 }
 
-.subsection-heading {
+.publication-category {
+  margin: 1.15rem 0 0;
+}
+
+.publication-category + .publication-category {
+  margin-top: 1.35rem;
+}
+
+.publication-category[open] .publication-category__chevron {
+  transform: rotate(90deg);
+}
+
+.publication-category__summary {
   display: flex;
-  align-items: end;
-  justify-content: space-between;
-  gap: 1.25rem;
-  margin-bottom: 1.05rem;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 2.9rem;
+  padding: 0.62rem 0.85rem;
+  color: $home-blue;
+  border-left: 3px solid $home-blue;
+  border-radius: 0 4px 4px 0;
+  background: linear-gradient(90deg, rgba(#f8eee8, 0.78) 0%, rgba(#f8eee8, 0) 92%);
+  cursor: pointer;
+  font-family: $home-body-font;
+  font-size: 1.04rem;
+  font-weight: 700;
+  list-style: none;
+  transition: background-color 220ms ease, color 220ms ease;
+  user-select: none;
 
-  h3 {
-    margin: 0;
-    font-size: clamp(1.25rem, 2.5vw, 1.5rem);
-    letter-spacing: -0.025em;
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &:hover {
+    color: $home-blue-dark;
+    background: linear-gradient(90deg, rgba(#f4e2d9, 0.86) 0%, rgba(#f4e2d9, 0) 92%);
   }
 }
 
-.section-eyebrow {
-  margin-bottom: 0.45rem;
+.publication-category__icon {
+  width: 1rem;
+  color: $home-blue;
+  font-family: $home-ui-font;
+  text-align: center;
+}
+
+.publication-category__count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.6rem;
+  min-height: 1.35rem;
+  padding: 0.05rem 0.42rem;
+  color: #5d6570;
+  border: 1px solid #d8dce2;
+  border-radius: 999px;
+  background: $home-paper;
+  font-family: $home-ui-font;
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.publication-category__chevron {
+  margin-left: auto;
+  color: #60656b;
+  font-family: $home-ui-font;
+  font-size: 1.25rem;
+  line-height: 1;
+  transition: transform 220ms ease;
+}
+
+.publication-category__body {
+  padding: 1rem 0 0.1rem;
+}
+
+.publication-category__body--archive {
+  padding-top: 0.8rem;
 }
 
 .contribution-note,
 .archive-intro {
-  margin: 0;
-  color: $home-muted;
-  font-size: 0.86rem;
+  margin: 0 0 0.8rem;
+  color: #5f6368;
+  font-size: 0.9rem;
 }
 
 .publication-list {
   display: grid;
-  gap: 1.15rem;
+  gap: 1rem;
 }
 
 .publication-card {
   display: grid;
   grid-template-columns: minmax(13rem, 0.72fr) minmax(0, 1.28fr);
-  gap: clamp(1.3rem, 3vw, 2.25rem);
+  gap: clamp(1.15rem, 2.6vw, 1.8rem);
   min-width: 0;
-  padding: clamp(1rem, 2.5vw, 1.5rem);
-  border: 1px solid rgba($home-border, 0.98);
-  border-radius: 22px;
-  background: rgba($home-surface, 0.86);
-  box-shadow: 0 12px 30px rgba(56, 78, 72, 0.045);
+  padding: clamp(0.95rem, 2.2vw, 1.35rem);
+  border: 1px solid $home-border;
+  border-radius: 16px;
+  background: $home-surface;
+  box-shadow: 0 5px 16px rgba(28, 40, 35, 0.04);
   transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease;
 
   &:hover {
-    border-color: rgba($home-sage, 0.4);
+    border-color: rgba($home-blue, 0.28);
     box-shadow: var(--card-shadow);
-    transform: translateY(-2px);
+    transform: translateY(-1px);
   }
 }
 
@@ -408,9 +480,9 @@ button:focus-visible {
   align-self: start;
   margin: 0;
   overflow: hidden;
-  border: 1px solid rgba($home-border, 0.85);
-  border-radius: 16px;
-  background: #fff;
+  border: 1px solid $home-border;
+  border-radius: 10px;
+  background: $home-paper;
 
   img {
     display: block;
@@ -424,10 +496,12 @@ button:focus-visible {
   min-width: 0;
 
   h4 {
-    margin: 0.85rem 0 0.7rem;
+    margin: 0.72rem 0 0.58rem;
     overflow-wrap: anywhere;
-    font-size: clamp(1.08rem, 2.2vw, 1.3rem);
-    letter-spacing: -0.025em;
+    color: $home-strong;
+    font-size: clamp(1.08rem, 2vw, 1.22rem);
+    font-weight: 700;
+    letter-spacing: -0.012em;
   }
 }
 
@@ -442,9 +516,9 @@ button:focus-visible {
   border-radius: 999px;
   color: darken($home-blue, 17%);
   background: rgba($home-blue, 0.1);
-  font-family: "Manrope", "Segoe UI", sans-serif;
-  font-size: 0.72rem;
-  font-weight: 720;
+  font-family: $home-ui-font;
+  font-size: 0.7rem;
+  font-weight: 700;
   letter-spacing: 0.035em;
   line-height: 1;
 }
@@ -465,18 +539,18 @@ button:focus-visible {
 .publication-authors,
 .publication-venue {
   margin-bottom: 0.55rem;
-  color: $home-muted;
-  font-size: 0.95rem;
-  line-height: 1.55;
+  color: #393d3b;
+  font-size: 0.94rem;
+  line-height: 1.5;
 }
 
 .publication-authors .self-author {
   color: $home-ink;
-  font-weight: 750;
+  font-weight: 700;
 }
 
 .publication-venue {
-  color: darken($home-muted, 5%);
+  color: #555;
   font-style: italic;
 }
 
@@ -495,7 +569,7 @@ button:focus-visible {
     border: 1px solid rgba($home-blue, 0.25);
     border-radius: 9px;
     background: rgba($home-blue, 0.06);
-    font-family: "Manrope", "Segoe UI", sans-serif;
+    font-family: $home-ui-font;
     font-size: 0.8rem;
     font-weight: 700;
     text-decoration: none;
@@ -506,16 +580,12 @@ button:focus-visible {
   }
 }
 
-.subsection-heading--archive {
-  margin-top: clamp(2.5rem, 5vw, 3.25rem);
-}
-
 .archive-year-group {
   display: grid;
   grid-template-columns: 5rem minmax(0, 1fr);
   gap: 1rem;
   padding: 0.9rem 0;
-  border-top: 1px solid rgba($home-border, 0.95);
+  border-top: 1px solid $home-border;
 }
 
 .archive-year {
@@ -551,10 +621,10 @@ button:focus-visible {
     min-width: 0;
     margin: 0;
     overflow-wrap: anywhere;
-    color: $home-ink;
+    color: $home-strong;
     font-size: 1.03rem;
-    font-weight: 650;
-    letter-spacing: -0.012em;
+    font-weight: 700;
+    letter-spacing: -0.008em;
   }
 
   .archive-meta {
@@ -563,7 +633,7 @@ button:focus-visible {
 }
 
 .archive-link {
-  font-family: "Manrope", "Segoe UI", sans-serif;
+  font-family: $home-ui-font;
   font-size: 0.8rem;
   font-weight: 700;
   white-space: nowrap;
@@ -574,7 +644,7 @@ button:focus-visible {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   column-gap: 2rem;
-  border-top: 1px solid rgba($home-border, 0.62);
+  border-top: 1px solid $home-border;
 }
 
 .honor-row {
@@ -586,8 +656,8 @@ button:focus-visible {
   border-bottom: 1px solid rgba($home-border, 0.75);
 
   time {
-    color: darken($home-blue, 10%);
-    font-family: "Manrope", "Segoe UI", sans-serif;
+    color: $home-blue;
+    font-family: $home-ui-font;
     font-size: 0.8rem;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
@@ -595,13 +665,13 @@ button:focus-visible {
 
   p {
     margin: 0;
-    color: $home-muted;
+    color: $home-ink;
     line-height: 1.5;
   }
 
   span {
     margin-left: 0.35rem;
-    color: darken($home-sage, 8%);
+    color: #315f50;
     font-size: 0.75rem;
     font-weight: 700;
   }
@@ -633,12 +703,13 @@ button:focus-visible {
     }
 
     & + article {
-      border-top: 1px solid rgba($home-border, 0.62);
+      border-top: 1px solid $home-border;
     }
   }
 
   h3 {
     margin: 0;
+    color: $home-strong;
     font-size: 1.03rem;
     overflow-wrap: anywhere;
   }
@@ -646,7 +717,7 @@ button:focus-visible {
   p {
     grid-column: 2;
     margin: 0;
-    color: $home-muted;
+    color: $home-ink;
     line-height: 1.5;
   }
 
@@ -658,7 +729,7 @@ button:focus-visible {
 }
 
 .activities-list {
-  border-top: 1px solid rgba($home-border, 0.62);
+  border-top: 1px solid $home-border;
 }
 
 .activity-row {
@@ -670,15 +741,15 @@ button:focus-visible {
   border-bottom: 1px solid rgba($home-border, 0.75);
 
   span {
-    color: darken($home-sage, 10%);
-    font-family: "Manrope", "Segoe UI", sans-serif;
+    color: $home-blue;
+    font-family: $home-ui-font;
     font-size: 0.78rem;
     font-weight: 700;
   }
 
   p {
     margin: 0;
-    color: $home-muted;
+    color: $home-ink;
   }
 }
 
@@ -689,12 +760,12 @@ button:focus-visible {
   gap: 2rem;
   margin: 3rem 0 0;
   padding: 1.25rem 0 0;
-  border-top: 1px solid rgba($home-border, 0.95);
+  border-top: 1px solid $home-border;
 
   p {
     margin: 0;
-    color: $home-muted;
-    font-family: "Manrope", "Segoe UI", sans-serif;
+    color: #555;
+    font-family: $home-ui-font;
     font-size: 0.9rem;
     font-weight: 650;
   }
@@ -707,25 +778,14 @@ button:focus-visible {
   overflow: hidden;
 }
 
-.motion-ready .reveal-section {
-  opacity: 0;
-  transform: translateY(6px);
-  transition: opacity 280ms ease, transform 280ms ease;
-}
-
-.motion-ready .reveal-section.is-visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 @media (min-width: 1024px) {
-  #main {
+  .editorial-homepage #main {
     display: grid;
-    grid-template-columns: minmax(13rem, 15rem) minmax(0, 1fr);
-    gap: clamp(2.5rem, 4vw, 3.5rem);
+    grid-template-columns: minmax(14.4rem, 15.3rem) minmax(0, 1fr);
+    gap: clamp(2.35rem, 3.5vw, 2.8rem);
   }
 
-  .sidebar {
+  .editorial-homepage .sidebar {
     position: sticky;
     top: 5.4rem;
     width: auto;
@@ -733,7 +793,7 @@ button:focus-visible {
     float: none;
   }
 
-  .page {
+  .editorial-homepage .page {
     width: auto;
     padding-right: 0;
     padding-left: 0;
@@ -742,7 +802,7 @@ button:focus-visible {
 }
 
 @media (max-width: 1023px) {
-  .sidebar .profile_box {
+  .editorial-homepage .sidebar .profile_box {
     margin-bottom: 1.5rem;
   }
 
@@ -756,20 +816,20 @@ button:focus-visible {
 }
 
 @media (max-width: 760px) {
-  #main {
+  .editorial-homepage #main {
+    width: 100%;
+    margin: 0;
     padding-right: 1rem;
     padding-left: 1rem;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    box-shadow: none;
   }
 
   .archive-year-group {
     grid-template-columns: 1fr;
     gap: 0.65rem;
-  }
-
-  .subsection-heading {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 0.8rem;
   }
 
   .publication-card {
@@ -833,8 +893,7 @@ button:focus-visible {
   }
 
   .publication-card:hover,
-  .motion-ready .reveal-section {
-    opacity: 1;
+  .publication-category__chevron {
     transform: none;
   }
 }

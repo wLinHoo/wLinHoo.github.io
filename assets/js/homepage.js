@@ -4,28 +4,6 @@
   var home = document.querySelector(".research-home");
   if (!home) return;
 
-  var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  var sections = Array.prototype.slice.call(home.querySelectorAll(".home-section"));
-
-  if (!reducedMotion && "IntersectionObserver" in window) {
-    document.documentElement.classList.add("motion-ready");
-    sections.forEach(function (section) {
-      section.classList.add("reveal-section");
-    });
-
-    var revealObserver = new IntersectionObserver(function (entries, observer) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
-      });
-    }, { rootMargin: "0px 0px -10% 0px", threshold: 0.08 });
-
-    sections.forEach(function (section) {
-      revealObserver.observe(section);
-    });
-  }
-
   var nav = document.getElementById("site-nav");
   if (!nav) return;
 

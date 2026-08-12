@@ -63,18 +63,19 @@ redirect_from:
       <h2 id="publications-title">Publications</h2>
     </div>
 
-    <div class="subsection-heading">
-      <div>
-        <p class="section-eyebrow">Selected publications</p>
-        <h3>Main Work</h3>
-      </div>
-      <p class="contribution-note"><sup>*</sup> Equal contribution</p>
-    </div>
-
-    <div class="publication-list">
+    <details class="publication-category" open>
+      <summary class="publication-category__summary">
+        <span class="publication-category__icon" aria-hidden="true">▤</span>
+        <span>Main Work</span>
+        <span class="publication-category__count" aria-label="5 publications">5</span>
+        <span class="publication-category__chevron" aria-hidden="true">›</span>
+      </summary>
+      <div class="publication-category__body">
+        <p class="contribution-note"><sup>*</sup> Equal contribution</p>
+        <div class="publication-list">
       <article class="publication-card">
         <figure class="publication-visual">
-          <img src="{{ '/images/causalrepair.png' | relative_url }}" alt="Overview of the CausalRepair dual-slicing repair framework" loading="lazy">
+          <img src="{{ '/images/causalrepair.png' | relative_url }}" alt="Overview of the CausalRepair dual-slicing repair framework">
         </figure>
         <div class="publication-content">
           <div class="tag-row"><span class="venue-tag">ISSTA '26</span><span class="tag--ccf">CCF-A</span></div>
@@ -87,7 +88,7 @@ redirect_from:
 
       <article class="publication-card">
         <figure class="publication-visual">
-          <img src="{{ '/images/tse.png' | relative_url }}" alt="Workflow of the ERICommiter commit message generation framework" loading="lazy">
+          <img src="{{ '/images/tse.png' | relative_url }}" alt="Workflow of the ERICommiter commit message generation framework">
         </figure>
         <div class="publication-content">
           <div class="tag-row"><span class="venue-tag">TSE '24</span><span class="tag--ccf">CCF-A</span></div>
@@ -100,7 +101,7 @@ redirect_from:
 
       <article class="publication-card">
         <figure class="publication-visual">
-          <img src="{{ '/images/ClassT.png' | relative_url }}" alt="ClassEval-T benchmark and class-level code translation strategies" loading="lazy">
+          <img src="{{ '/images/ClassT.png' | relative_url }}" alt="ClassEval-T benchmark and class-level code translation strategies">
         </figure>
         <div class="publication-content">
           <div class="tag-row"><span class="venue-tag">ISSTA '25</span><span class="tag--ccf">CCF-A</span></div>
@@ -113,7 +114,7 @@ redirect_from:
 
       <article class="publication-card">
         <figure class="publication-visual">
-          <img src="{{ '/images/debugrepair.png' | relative_url }}" alt="DebugRepair self-directed debugging and patch refinement pipeline" loading="lazy">
+          <img src="{{ '/images/debugrepair.png' | relative_url }}" alt="DebugRepair self-directed debugging and patch refinement pipeline">
         </figure>
         <div class="publication-content">
           <div class="tag-row"><span class="venue-tag venue-tag--preprint">Preprint '26</span></div>
@@ -126,7 +127,7 @@ redirect_from:
 
       <article class="publication-card">
         <figure class="publication-visual">
-          <img src="{{ '/images/icsme.png' | relative_url }}" alt="Metamorphic testing framework for evaluating LLM-powered program repair" loading="lazy">
+          <img src="{{ '/images/icsme.png' | relative_url }}" alt="Metamorphic testing framework for evaluating LLM-powered program repair">
         </figure>
         <div class="publication-content">
           <div class="tag-row"><span class="venue-tag venue-tag--preprint">Preprint '24</span></div>
@@ -136,17 +137,21 @@ redirect_from:
           <div class="publication-links"><a href="https://arxiv.org/pdf/2410.07516.pdf" target="_blank" rel="noopener noreferrer">PDF</a></div>
         </div>
       </article>
-    </div>
-
-    <div class="subsection-heading subsection-heading--archive">
-      <div>
-        <p class="section-eyebrow">Additional publications</p>
-        <h3>Other Work</h3>
+        </div>
       </div>
-      <p class="archive-intro">A compact record of recent publications and preprints.</p>
-    </div>
+    </details>
 
-    <div class="archive-year-group">
+    <details class="publication-category">
+      <summary class="publication-category__summary">
+        <span class="publication-category__icon" aria-hidden="true">▤</span>
+        <span>Other Work</span>
+        <span class="publication-category__count" aria-label="7 publications">7</span>
+        <span class="publication-category__chevron" aria-hidden="true">›</span>
+      </summary>
+      <div class="publication-category__body publication-category__body--archive">
+        <p class="archive-intro">A compact record of recent publications and preprints.</p>
+
+        <div class="archive-year-group">
       <p class="archive-year">2026</p>
       <div class="archive-list">
         <article class="archive-work">
@@ -174,9 +179,9 @@ redirect_from:
           <a class="archive-link" href="https://doi.org/10.1038/s44304-026-00232-5" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
         </article>
       </div>
-    </div>
+        </div>
 
-    <div class="archive-year-group">
+        <div class="archive-year-group">
       <p class="archive-year">2025</p>
       <div class="archive-list">
         <article class="archive-work">
@@ -184,7 +189,9 @@ redirect_from:
           <a class="archive-link" href="https://arxiv.org/pdf/2506.07486" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
         </article>
       </div>
-    </div>
+        </div>
+      </div>
+    </details>
   </section>
 
   <section class="home-section" id="honors-and-awards" aria-labelledby="honors-title">
