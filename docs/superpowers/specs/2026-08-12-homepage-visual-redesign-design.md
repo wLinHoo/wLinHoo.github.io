@@ -97,6 +97,19 @@ Keep the current five works with images, complete author lists, descriptions, pu
 
 Each main-work record uses a responsive image-and-text layout. Venue labels are translucent. `CCF-A` appears as a separate pale-red label only for qualifying venues.
 
+Place the note `<sup>*</sup> Equal contribution` at the beginning of Main Work, following the convention in the current homepage. Every Main Work record must display its complete author list. Render `Linhao Wu` in bold in all five lists.
+
+Use superscript `*` on both co-first authors in exactly these three records:
+
+- **Automated Commit Message Generation With Large Language Models**: Pengyu Xue<sup>*</sup>, **Linhao Wu**<sup>*</sup>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
+- **ClassEval-T**: Pengyu Xue<sup>*</sup>, **Linhao Wu**<sup>*</sup>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
+- **Exploring and Lifting the Robustness of LLM-powered Automated Program Repair with Metamorphic Testing**: Pengyu Xue<sup>*</sup>, **Linhao Wu**<sup>*</sup>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, Jingwen Wu.
+
+The other two complete author lists are:
+
+- **CausalRepair**: **Linhao Wu**, Yizhou Chen, Zhen Yang, Pengyu Xue, Dan Hao.
+- **DebugRepair**: **Linhao Wu**, Yifei Pei, Zhen Yang, Kainan Li, Zhonghang Lu, Hao Tan, Xiran Lyu, Jia Li, Yizhou Chen, Pengyu Xue, Kunwu Zheng, Dan Hao.
+
 #### Other Work
 
 Group entries by year in a compact research archive. Every record must show:
@@ -191,7 +204,7 @@ The older Scholar entry titled “A Framework for Creating Non-Regressive Test C
 1. Confirm the Jekyll source remains compatible with GitHub Pages and no framework migration occurred.
 2. Confirm all navigation URLs match explicit anchors.
 3. Confirm all original About, News, Education, Main Work, Honors, Internship Experience, Academic Activities, and ClustrMaps content remains present.
-4. Confirm Main Work contains exactly five image-backed records.
+4. Confirm Main Work contains exactly five image-backed records, every record has a complete author list, `Linhao Wu` is bold in each list, and the three approved co-first-author papers mark both co-first authors with superscript `*`.
 5. Confirm Other Work contains exactly seven unique records with complete titles, status labels, and links.
 6. Confirm TSE, FSE, and ISSTA records receive `CCF-A` labels and preprints/non-CCF venues do not.
 7. Confirm self-hosted fonts load with fallbacks and do not depend on a font CDN.
