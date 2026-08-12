@@ -74,7 +74,7 @@ This redesign adopts those typography and interaction principles while retaining
 Replace the current static Main Work and Other Work subsection headings with two semantic `<details>` groups:
 
 1. `Main Work`, with a visible count of `5`, open by default.
-2. `Other Work`, with a visible count of `7`, closed by default.
+2. `Other Work`, with a visible count of `7`, open by default.
 
 Each `<summary>` should include:
 
@@ -139,8 +139,13 @@ The native details interaction must remain usable with keyboard navigation and w
 ### Academic Activities and Visitors
 
 - Keep activities as compact editorial entries.
+- Separate each conference name from its year with a comma.
 - Keep the existing ClustrMaps embed intact.
 - Place visitor information in a quiet footer-like area after the main academic content.
+
+### Profile Location
+
+- Display the sidebar location as `Beijing, China`.
 
 ## Motion and Interaction
 
@@ -188,7 +193,7 @@ Check at approximately `1440px`, `1024px`, `768px`, and `375px`:
 - sufficiently dark body and heading text;
 - readable typography and stable fallbacks;
 - correct Main Work and Other Work summary bars;
-- correct default open/closed states;
+- both publication groups open by default;
 - compact publication cards and Other Work rows.
 
 ### Interaction and Accessibility
