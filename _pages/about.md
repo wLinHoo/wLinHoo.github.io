@@ -26,6 +26,8 @@ redirect_from:
 
 <span style="font-size: 16px; color:red">🔥 I am actively looking for a Internship position in AI/LLM/AI4SE. 🔥</span> 
 
+<span class='anchor' id='education'></span>
+
 # 📖 Education
 **Peking University** (2026 - Present)
 
@@ -35,11 +37,15 @@ redirect_from:
 
 *B.Eng in Information Engineering & B.A in Public Administration*  
 
+<span class='anchor' id='news'></span>
+
 # 🔥 News
 - *2026.06*: &nbsp;🎉🎉 One paper accepted to *the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'26)*!
 - *2025.12*: &nbsp;🎉🎉 One paper accepted to *the ACM International Conference on the Foundations of Software Engineering (FSE'26)*!
 - *2025.03*: &nbsp;🎉🎉 One paper accepted to *the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'25)*!
 - *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering (TSE 2024)*!
+
+<span class='anchor' id='publications'></span>
 
 # 📝 Publications 
 
@@ -116,6 +122,8 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 </div>
 
 
+<span class='anchor' id='honors-and-awards'></span>
+
 # 🏆 Honors and Awards
 
 - *2026* Honorary Bachelor's Degree, Shandong University
@@ -125,6 +133,8 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 - *2022-2023* New 120th Anniversary Social Scholarship, Shandong University (Top 0.5%)
 - *2022-2023* First-Class Outstanding Student Award, Shandong University (Top 0.8%)
 
+<span class='anchor' id='internship-experience'></span>
+
 # 🏢 Internship Experience
 - ### **Shandong University – Research Center for Architecture and Embedded Systems**  
   - **Position**: Research Assistant  
@@ -133,6 +143,8 @@ Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li,
 - ### **Shandong University – Smart National Governance Laboratory**  
   - **Position**: Research Assistant  
   - **Project**: AI-Driven Dynamic Decision-Making for Catastrophic Emergency Response  
+
+<span class='anchor' id='academic-activities'></span>
 
 # 📊 Academic Activities
 - **Oral Presentation**: China Information Fusion Conference 2023
