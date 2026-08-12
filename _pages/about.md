@@ -45,6 +45,20 @@ redirect_from:
 
 <span style="color:#5E81AC"> <sup>*</sup> **Equal contribution** </span>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISSTA 2026</div><img src='images/causalrepair.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+  
+**CausalRepair: Bridging the Causality Gap in Large Language Model-Based Automated Program Repair via Dual-Slicing**  
+<ins>**Linhao Wu**</ins>, Yizhou Chen, Zhen Yang, Pengyu Xue, Dan Hao.
+
+*ISSTA 2026* (CCF-A Conference)，2026
+[[PDF](https://arxiv.org/pdf/2608.10613)] | [[Code](https://github.com/wLinHoo/CausalRepair)]
+- Proposed CausalRepair, a conversation-driven APR framework that bridges the causality gap through minimal causal context
+- Designed a dual-slicing strategy combining test-side context-aware static slicing and source-side execution-trace-based dynamic slicing
+- Achieved state-of-the-art performance on Defects4J, correctly fixing 313 bugs with DeepSeek-V3 at an average repair cost of only $0.029 per bug
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE 2024</div><img src='images/tse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
