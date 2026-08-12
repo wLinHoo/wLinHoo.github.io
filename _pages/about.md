@@ -14,9 +14,9 @@ redirect_from:
       <h2 id="about-title">About Me</h2>
     </div>
     <div class="about-copy">
-      <p>I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research interests lie at the intersection of <strong>Large Language Models (LLMs) and Software Engineering</strong>, particularly in <strong>code translation, automated program repair, and automated program understanding</strong>.</p>
+      <p>I am an incoming M.S. student in Computer Science and Technology at Peking University. My research interests lie at the intersection of <strong>Large Language Models (LLMs) and Software Engineering</strong>, particularly in <strong>code translation, automated program repair, and automated program understanding</strong>.</p>
       <p>I have led multiple research projects in collaboration with <strong>Shandong University's Research Center for Architecture and Embedded Systems</strong> and <strong>Shandong University's Smart National Governance Laboratory</strong>, under the guidance of <a href="https://yz1019117968.github.io/mark.github.io/" target="_blank" rel="noopener noreferrer"><strong>Dr. Zhen Yang</strong></a> and <a href="https://faculty.sdu.edu.cn/feiliguo/zh_CN/index.htm" target="_blank" rel="noopener noreferrer"><strong>Prof. Liguo Fei</strong></a>.</p>
-      <p>My work has also been fortunate to receive guidance from <a href="https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener noreferrer"><strong>Prof. Zhi Jin</strong></a> and <a href="https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer"><strong>Prof. Ge Li</strong></a> at the <a href="https://hcst.pku.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)</strong></a>. I will soon begin my Master's studies at <strong>Peking University</strong>, advised by <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=34W2ZrMAAAAJ" target="_blank" rel="noopener noreferrer"><strong>Prof. Dan Hao</strong></a>.</p>
+      <p>My work has also been fortunate to receive guidance from <a href="https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener noreferrer"><strong>Prof. Zhi Jin</strong></a> and <a href="https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer"><strong>Prof. Ge Li</strong></a> at the <a href="https://hcst.pku.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)</strong></a>. At Peking University, I will be advised by <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=34W2ZrMAAAAJ" target="_blank" rel="noopener noreferrer"><strong>Prof. Dan Hao</strong></a>.</p>
       <p>I have published in <strong>top-tier venues</strong>, including <em>IEEE Transactions on Software Engineering</em> and the ACM SIGSOFT International Symposium on Software Testing and Analysis.</p>
     </div>
     <aside class="availability-note" aria-label="Internship availability">
@@ -82,11 +82,6 @@ redirect_from:
           <p class="publication-authors"><strong class="self-author">Linhao Wu</strong>, Yizhou Chen, Zhen Yang, Pengyu Xue, Dan Hao.</p>
           <p class="publication-venue">ACM SIGSOFT International Symposium on Software Testing and Analysis, 2026</p>
           <div class="publication-links"><a href="https://arxiv.org/pdf/2608.10613" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://github.com/wLinHoo/CausalRepair" target="_blank" rel="noopener noreferrer">Code</a></div>
-          <ul class="publication-highlights">
-            <li>Proposed a conversation-driven APR framework that bridges the causality gap through minimal causal context.</li>
-            <li>Designed dual slicing across test-side static context and source-side dynamic execution traces.</li>
-            <li>Fixed 313 Defects4J bugs with DeepSeek-V3 at an average repair cost of $0.029 per bug.</li>
-          </ul>
         </div>
       </article>
 
@@ -100,11 +95,6 @@ redirect_from:
           <p class="publication-authors">Pengyu Xue<sup>*</sup>, <strong class="self-author">Linhao Wu<sup>*</sup></strong>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.</p>
           <p class="publication-venue">IEEE Transactions on Software Engineering, 2024</p>
           <div class="publication-links"><a href="https://ieeexplore.ieee.org/document/10713474" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://github.com/Pengyu03/LLM-Commit-Message-Generation" target="_blank" rel="noopener noreferrer">Code</a></div>
-          <ul class="publication-highlights">
-            <li>Curated a high-quality dataset through a multi-step filtering process.</li>
-            <li>Led the first comprehensive evaluation of LLMs for commit message generation.</li>
-            <li>Developed ERICommiter, a retrieval-based in-context learning framework that improves efficiency and performance.</li>
-          </ul>
         </div>
       </article>
 
@@ -118,11 +108,6 @@ redirect_from:
           <p class="publication-authors">Pengyu Xue<sup>*</sup>, <strong class="self-author">Linhao Wu<sup>*</sup></strong>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.</p>
           <p class="publication-venue">ACM SIGSOFT International Symposium on Software Testing and Analysis, 2025</p>
           <div class="publication-links"><a href="https://dl.acm.org/doi/pdf/10.1145/3728940" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://github.com/wLinHoo/ClassEval-T" target="_blank" rel="noopener noreferrer">Code</a></div>
-          <ul class="publication-highlights">
-            <li>Built a Python, Java, and C++ benchmark through more than 360 person-hours of curation.</li>
-            <li>Designed three translation strategies for practical class-level translation scenarios.</li>
-            <li>Analyzed more than 1,200 failure cases to characterize common LLM translation errors.</li>
-          </ul>
         </div>
       </article>
 
@@ -136,11 +121,6 @@ redirect_from:
           <p class="publication-authors"><strong class="self-author">Linhao Wu</strong>, Yifei Pei, Zhen Yang, Kainan Li, Zhonghang Lu, Hao Tan, Xiran Lyu, Jia Li, Yizhou Chen, Pengyu Xue, Kunwu Zheng, Dan Hao.</p>
           <p class="publication-venue">arXiv:2604.19305, 2026</p>
           <div class="publication-links"><a href="https://arxiv.org/pdf/2604.19305" target="_blank" rel="noopener noreferrer">PDF</a></div>
-          <ul class="publication-highlights">
-            <li>Proposed a self-directed debugging framework for LLM-based automated program repair.</li>
-            <li>Combined test semantic purification, simulated instrumentation, and conversational patch refinement.</li>
-            <li>Evaluated across Defects4J, QuixBugs, and HumanEval-Java, fixing 224 Defects4J bugs with GPT-3.5.</li>
-          </ul>
         </div>
       </article>
 
@@ -154,11 +134,6 @@ redirect_from:
           <p class="publication-authors">Pengyu Xue<sup>*</sup>, <strong class="self-author">Linhao Wu<sup>*</sup></strong>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, Jingwen Wu.</p>
           <p class="publication-venue">arXiv:2410.07516, 2024</p>
           <div class="publication-links"><a href="https://arxiv.org/pdf/2410.07516.pdf" target="_blank" rel="noopener noreferrer">PDF</a></div>
-          <ul class="publication-highlights">
-            <li>Created the MT-LAPR testing framework with nine metamorphic relations.</li>
-            <li>Systematically revealed robustness deficiencies in LLM-powered automated program repair.</li>
-            <li>Integrated a CodeT5-based model that improved readability and robustness by 49.32%.</li>
-          </ul>
         </div>
       </article>
     </div>
@@ -175,33 +150,27 @@ redirect_from:
       <p class="archive-year">2026</p>
       <div class="archive-list">
         <article class="archive-work">
-          <div class="archive-meta"><span class="archive-status">FSE '26</span><span class="tag--ccf">CCF-A</span></div>
-          <h4>TransLibEval: Demystify Large Language Models’ Capability in Third-Party Library-Targeted Code Translation</h4>
+          <div class="archive-title-line"><h4>TransLibEval: Demystify Large Language Models’ Capability in Third-Party Library-Targeted Code Translation</h4><div class="archive-meta"><span class="archive-status">FSE '26</span><span class="tag--ccf">CCF-A</span></div></div>
           <a class="archive-link" href="https://arxiv.org/pdf/2509.12087" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
         </article>
         <article class="archive-work">
-          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
-          <h4>Toward Executable Repository-Level Code Generation via Environment Alignment</h4>
+          <div class="archive-title-line"><h4>Toward Executable Repository-Level Code Generation via Environment Alignment</h4><div class="archive-meta"><span class="archive-status">Preprint</span></div></div>
           <a class="archive-link" href="https://arxiv.org/pdf/2604.03622" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
         </article>
         <article class="archive-work">
-          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
-          <h4>Persistent Cross-Attempt State Optimization for Repository-Level Code Generation</h4>
+          <div class="archive-title-line"><h4>Persistent Cross-Attempt State Optimization for Repository-Level Code Generation</h4><div class="archive-meta"><span class="archive-status">Preprint</span></div></div>
           <a class="archive-link" href="https://arxiv.org/pdf/2604.03632" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
         </article>
         <article class="archive-work">
-          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
-          <h4>Fixturize: Bridging the Fixture Gap in Test Generation</h4>
+          <div class="archive-title-line"><h4>Fixturize: Bridging the Fixture Gap in Test Generation</h4><div class="archive-meta"><span class="archive-status">Preprint</span></div></div>
           <a class="archive-link" href="https://arxiv.org/pdf/2601.06615" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
         </article>
         <article class="archive-work">
-          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
-          <h4>Porting Declarative UI to HarmonyOS: A Heuristic-guided LLM Approach</h4>
+          <div class="archive-title-line"><h4>Porting Declarative UI to HarmonyOS: A Heuristic-guided LLM Approach</h4><div class="archive-meta"><span class="archive-status">Preprint</span></div></div>
           <a class="archive-link" href="https://arxiv.org/pdf/2606.07085" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
         </article>
         <article class="archive-work">
-          <div class="archive-meta"><span class="archive-status">npj Natural Hazards '26</span></div>
-          <h4>Rescue plan intelligent generation for natural disasters: an integrated approach based on Large Language Models</h4>
+          <div class="archive-title-line"><h4>Rescue plan intelligent generation for natural disasters: an integrated approach based on Large Language Models</h4><div class="archive-meta"><span class="archive-status">npj Natural Hazards '26</span></div></div>
           <a class="archive-link" href="https://doi.org/10.1038/s44304-026-00232-5" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
         </article>
       </div>
@@ -211,8 +180,7 @@ redirect_from:
       <p class="archive-year">2025</p>
       <div class="archive-list">
         <article class="archive-work">
-          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
-          <h4>DISTINCT: A Description-Guided Branch-Consistency Analysis Framework for Non-Regressive Test Case Generation</h4>
+          <div class="archive-title-line"><h4>DISTINCT: A Description-Guided Branch-Consistency Analysis Framework for Non-Regressive Test Case Generation</h4><div class="archive-meta"><span class="archive-status">Preprint</span></div></div>
           <a class="archive-link" href="https://arxiv.org/pdf/2506.07486" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
         </article>
       </div>

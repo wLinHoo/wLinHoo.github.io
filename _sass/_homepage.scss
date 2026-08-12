@@ -14,10 +14,10 @@
   src: url("/assets/fonts/homepage/source-sans-3-latin-variable.woff2") format("woff2");
 }
 
-$home-canvas: #f3f7f5;
+$home-canvas: #fff;
 $home-surface: #fbfdfc;
-$home-ink: #22312e;
-$home-muted: #5f706b;
+$home-ink: #18211f;
+$home-muted: #3f4b47;
 $home-sage: #6f9487;
 $home-blue: #6f97b2;
 $home-border: #dce8e3;
@@ -76,7 +76,7 @@ button:focus-visible {
     position: relative;
     color: $home-muted;
     font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     font-weight: 600;
     letter-spacing: -0.01em;
     transition: color 180ms ease;
@@ -125,7 +125,7 @@ button:focus-visible {
   }
 
   .page__content {
-    font-size: 1rem;
+    font-size: 1.04rem;
   }
 }
 
@@ -154,6 +154,12 @@ button:focus-visible {
   .author__bio,
   .author__urls {
     color: $home-muted;
+  }
+
+  .author__bio,
+  .author__urls li,
+  .author__urls a {
+    font-size: 0.96rem;
   }
 
   .author__urls li,
@@ -261,7 +267,7 @@ button:focus-visible {
   p {
     margin-bottom: 0.85rem;
     color: $home-muted;
-    font-size: 1rem;
+    font-size: 1.04rem;
     line-height: 1.65;
     text-wrap: pretty;
   }
@@ -297,7 +303,7 @@ button:focus-visible {
   time {
     color: darken($home-blue, 12%);
     font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.75rem;
+    font-size: 0.79rem;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
   }
@@ -308,7 +314,7 @@ button:focus-visible {
 
   h3 {
     margin: 0 0 0.15rem;
-    font-size: 1rem;
+    font-size: 1.04rem;
     font-weight: 700;
   }
 
@@ -339,7 +345,7 @@ button:focus-visible {
   time {
     color: darken($home-blue, 10%);
     font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
   }
@@ -437,7 +443,7 @@ button:focus-visible {
   color: darken($home-blue, 17%);
   background: rgba($home-blue, 0.1);
   font-family: "Manrope", "Segoe UI", sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-weight: 720;
   letter-spacing: 0.035em;
   line-height: 1;
@@ -460,7 +466,7 @@ button:focus-visible {
 .publication-venue {
   margin-bottom: 0.55rem;
   color: $home-muted;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.55;
 }
 
@@ -478,7 +484,7 @@ button:focus-visible {
   display: flex;
   flex-wrap: wrap;
   gap: 0.55rem;
-  margin: 0.9rem 0 1rem;
+  margin: 0.85rem 0 0.15rem;
 
   a {
     display: inline-flex;
@@ -490,25 +496,13 @@ button:focus-visible {
     border-radius: 9px;
     background: rgba($home-blue, 0.06);
     font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.76rem;
+    font-size: 0.8rem;
     font-weight: 700;
     text-decoration: none;
 
     &:hover {
       background: rgba($home-blue, 0.13);
     }
-  }
-}
-
-.publication-highlights {
-  margin: 0;
-  padding-left: 1.1rem;
-  color: $home-muted;
-  font-size: 0.86rem;
-  line-height: 1.55;
-
-  li + li {
-    margin-top: 0.3rem;
   }
 }
 
@@ -534,9 +528,9 @@ button:focus-visible {
 
 .archive-work {
   display: grid;
-  grid-template-columns: minmax(7.5rem, auto) minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr) auto;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
   min-width: 0;
   padding: 0.72rem 0;
 
@@ -544,19 +538,33 @@ button:focus-visible {
     border-top: 1px solid rgba($home-border, 0.72);
   }
 
+}
+
+.archive-title-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.65rem;
+  min-width: 0;
+
   h4 {
     min-width: 0;
     margin: 0;
     overflow-wrap: anywhere;
-    font-size: 0.98rem;
+    color: $home-ink;
+    font-size: 1.03rem;
     font-weight: 650;
     letter-spacing: -0.012em;
+  }
+
+  .archive-meta {
+    flex: 0 0 auto;
   }
 }
 
 .archive-link {
   font-family: "Manrope", "Segoe UI", sans-serif;
-  font-size: 0.76rem;
+  font-size: 0.8rem;
   font-weight: 700;
   white-space: nowrap;
   text-decoration: none;
@@ -580,7 +588,7 @@ button:focus-visible {
   time {
     color: darken($home-blue, 10%);
     font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.76rem;
+    font-size: 0.8rem;
     font-weight: 700;
     font-variant-numeric: tabular-nums;
   }
@@ -631,7 +639,7 @@ button:focus-visible {
 
   h3 {
     margin: 0;
-    font-size: 0.98rem;
+    font-size: 1.03rem;
     overflow-wrap: anywhere;
   }
 
@@ -664,7 +672,7 @@ button:focus-visible {
   span {
     color: darken($home-sage, 10%);
     font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.74rem;
+    font-size: 0.78rem;
     font-weight: 700;
   }
 
@@ -687,7 +695,7 @@ button:focus-visible {
     margin: 0;
     color: $home-muted;
     font-family: "Manrope", "Segoe UI", sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     font-weight: 650;
   }
 }
@@ -774,10 +782,6 @@ button:focus-visible {
 
   .archive-work {
     grid-template-columns: 1fr;
-
-    .archive-meta {
-      grid-column: 1 / -1;
-    }
   }
 
   .experience-list article {
