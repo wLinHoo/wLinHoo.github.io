@@ -3,153 +3,283 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<div class="research-home">
+  <header class="home-hero" id="about-me">
+    <p class="hero-kicker">AI for Software Engineering · Research Archive</p>
+    <h1>Linhao Wu</h1>
+    <p class="hero-lead">I study how large language models can understand, translate, test, and repair real-world software.</p>
+    <div class="hero-topics" aria-label="Research interests">
+      <span>Code Translation</span>
+      <span>Program Repair</span>
+      <span>Program Understanding</span>
+    </div>
+  </header>
 
-<span class='anchor' id='about-me'></span>
+  <section class="home-section home-section--about" aria-labelledby="about-title">
+    <div class="section-heading">
+      <p class="section-index">01 · Profile</p>
+      <h2 id="about-title">About Me</h2>
+    </div>
+    <div class="about-copy">
+      <p>I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research interests lie at the intersection of <strong>Large Language Models (LLMs) and Software Engineering</strong>, particularly in <strong>code translation, automated program repair, and automated program understanding</strong>.</p>
+      <p>I have led multiple research projects in collaboration with <strong>Shandong University's Research Center for Architecture and Embedded Systems</strong> and <strong>Shandong University's Smart National Governance Laboratory</strong>, under the guidance of <a href="https://yz1019117968.github.io/mark.github.io/" target="_blank" rel="noopener noreferrer"><strong>Dr. Zhen Yang</strong></a> and <a href="https://faculty.sdu.edu.cn/feiliguo/zh_CN/index.htm" target="_blank" rel="noopener noreferrer"><strong>Prof. Liguo Fei</strong></a>.</p>
+      <p>My work has also been fortunate to receive guidance from <a href="https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&amp;hl=zh-CN&amp;oi=ao" target="_blank" rel="noopener noreferrer"><strong>Prof. Zhi Jin</strong></a> and <a href="https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer"><strong>Prof. Ge Li</strong></a> at the <a href="https://hcst.pku.edu.cn/" target="_blank" rel="noopener noreferrer"><strong>Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)</strong></a>. I will soon begin my Master's studies at <strong>Peking University</strong>, advised by <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=34W2ZrMAAAAJ" target="_blank" rel="noopener noreferrer"><strong>Prof. Dan Hao</strong></a>.</p>
+      <p>I have published in <strong>top-tier venues</strong>, including <em>IEEE Transactions on Software Engineering</em> and the ACM SIGSOFT International Symposium on Software Testing and Analysis.</p>
+    </div>
+    <aside class="availability-note" aria-label="Internship availability">
+      <span class="availability-dot" aria-hidden="true"></span>
+      I am actively looking for an internship position in AI, LLM, or AI4SE.
+    </aside>
+  </section>
 
-# 😉 About Me
-<span style="font-size: 16px"> I am an undergraduate student pursuing dual degrees in Information Engineering and Public Administration at Shandong University. My research interests lie in the intersection of **Large Language Models (LLMs) and Software Engineering**, particularly in **code translation, automated program repair, and automated program understanding**.  </span>
+  <section class="home-section" id="education" aria-labelledby="education-title">
+    <div class="section-heading">
+      <p class="section-index">02 · Background</p>
+      <h2 id="education-title">Education</h2>
+    </div>
+    <div class="timeline-grid">
+      <article class="timeline-card">
+        <p class="timeline-date">2026 — Present</p>
+        <h3>Peking University</h3>
+        <p>M.S. in Computer Science and Technology</p>
+      </article>
+      <article class="timeline-card">
+        <p class="timeline-date">2021 — 2026</p>
+        <h3>Shandong University</h3>
+        <p>B.Eng in Information Engineering &amp; B.A in Public Administration</p>
+      </article>
+    </div>
+  </section>
 
-<span style="font-size: 16px"> I have led multiple research projects in collaboration with **Shandong University's Research Center for Architecture and Embedded Systems** and **Shandong University's Smart National Governance Laboratory**, under the guidance of [**Dr. Zhen Yang**](https://yz1019117968.github.io/mark.github.io/) and [**Prof. Liguo Fei**](https://faculty.sdu.edu.cn/feiliguo/zh_CN/index.htm). Additionally, my work has been fortunate to receive guidance from [**Prof. Zhi Jin**](https://scholar.google.com.hk/citations?user=ZC7SObAAAAAJ&hl=zh-CN&oi=ao) and [**Prof. Ge Li**](https://scholar.google.com.hk/citations?user=PPqcVRwAAAAJ&hl=zh-CN) at [**Key Laboratory of High Confidence Software Technologies, Ministry of Education (Peking University)**](https://hcst.pku.edu.cn/). I will soon begin my Master's studies at **Peking University**, advised by [**Prof. Dan Hao**](https://scholar.google.com.hk/citations?hl=zh-CN&user=34W2ZrMAAAAJ). </span>
+  <section class="home-section" id="news" aria-labelledby="news-title">
+    <div class="section-heading">
+      <p class="section-index">03 · Updates</p>
+      <h2 id="news-title">News</h2>
+    </div>
+    <ol class="news-list">
+      <li><time datetime="2026-06">2026.06</time><span>One paper accepted to the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA '26).</span></li>
+      <li><time datetime="2025-12">2025.12</time><span>One paper accepted to the ACM International Conference on the Foundations of Software Engineering (FSE '26).</span></li>
+      <li><time datetime="2025-03">2025.03</time><span>One paper accepted to the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA '25).</span></li>
+      <li><time datetime="2024-10">2024.10</time><span>One paper accepted at IEEE Transactions on Software Engineering (TSE 2024).</span></li>
+    </ol>
+  </section>
 
-<span style="font-size: 16px"> I have published in **top-tier venues** including *IEEE Transactions on Software Engineering* (CCF-A), and the ACM SIGSOFT International Symposium on Software Testing and Analysis *(ISSTA 2025 and ISSTA 2026)* (CCF-A). </span>
+  <section class="home-section publications-section" id="publications" aria-labelledby="publications-title">
+    <div class="section-heading">
+      <p class="section-index">04 · Publications</p>
+      <h2 id="publications-title">Selected Research</h2>
+    </div>
 
-<span style="font-size: 16px; color:red">🔥 I am actively looking for a Internship position in AI/LLM/AI4SE. 🔥</span> 
+    <div class="subsection-heading">
+      <div>
+        <p class="section-eyebrow">Selected publications</p>
+        <h3>Main Work</h3>
+      </div>
+      <p class="contribution-note"><sup>*</sup> Equal contribution</p>
+    </div>
 
-<span class='anchor' id='education'></span>
+    <div class="publication-list">
+      <article class="publication-card">
+        <figure class="publication-visual">
+          <img src="{{ '/images/causalrepair.png' | relative_url }}" alt="Overview of the CausalRepair dual-slicing repair framework" loading="lazy">
+        </figure>
+        <div class="publication-content">
+          <div class="tag-row"><span class="venue-tag">ISSTA '26</span><span class="tag--ccf">CCF-A</span></div>
+          <h4>CausalRepair: Bridging the Causality Gap in Large Language Model-Based Automated Program Repair via Dual-Slicing</h4>
+          <p class="publication-authors"><strong class="self-author">Linhao Wu</strong>, Yizhou Chen, Zhen Yang, Pengyu Xue, Dan Hao.</p>
+          <p class="publication-venue">ACM SIGSOFT International Symposium on Software Testing and Analysis, 2026</p>
+          <div class="publication-links"><a href="https://arxiv.org/pdf/2608.10613" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://github.com/wLinHoo/CausalRepair" target="_blank" rel="noopener noreferrer">Code</a></div>
+          <ul class="publication-highlights">
+            <li>Proposed a conversation-driven APR framework that bridges the causality gap through minimal causal context.</li>
+            <li>Designed dual slicing across test-side static context and source-side dynamic execution traces.</li>
+            <li>Fixed 313 Defects4J bugs with DeepSeek-V3 at an average repair cost of $0.029 per bug.</li>
+          </ul>
+        </div>
+      </article>
 
-# 📖 Education
-**Peking University** (2026 - Present)
+      <article class="publication-card">
+        <figure class="publication-visual">
+          <img src="{{ '/images/tse.png' | relative_url }}" alt="Workflow of the ERICommiter commit message generation framework" loading="lazy">
+        </figure>
+        <div class="publication-content">
+          <div class="tag-row"><span class="venue-tag">TSE '24</span><span class="tag--ccf">CCF-A</span></div>
+          <h4>Automated Commit Message Generation with Large Language Models: An Empirical Study and Beyond</h4>
+          <p class="publication-authors">Pengyu Xue<sup>*</sup>, <strong class="self-author">Linhao Wu<sup>*</sup></strong>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.</p>
+          <p class="publication-venue">IEEE Transactions on Software Engineering, 2024</p>
+          <div class="publication-links"><a href="https://ieeexplore.ieee.org/document/10713474" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://github.com/Pengyu03/LLM-Commit-Message-Generation" target="_blank" rel="noopener noreferrer">Code</a></div>
+          <ul class="publication-highlights">
+            <li>Curated a high-quality dataset through a multi-step filtering process.</li>
+            <li>Led the first comprehensive evaluation of LLMs for commit message generation.</li>
+            <li>Developed ERICommiter, a retrieval-based in-context learning framework that improves efficiency and performance.</li>
+          </ul>
+        </div>
+      </article>
 
-*M.S. in Computer Science and Technology*
+      <article class="publication-card">
+        <figure class="publication-visual">
+          <img src="{{ '/images/ClassT.png' | relative_url }}" alt="ClassEval-T benchmark and class-level code translation strategies" loading="lazy">
+        </figure>
+        <div class="publication-content">
+          <div class="tag-row"><span class="venue-tag">ISSTA '25</span><span class="tag--ccf">CCF-A</span></div>
+          <h4>ClassEval-T: Evaluating Large Language Models in Class-Level Code Translation</h4>
+          <p class="publication-authors">Pengyu Xue<sup>*</sup>, <strong class="self-author">Linhao Wu<sup>*</sup></strong>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.</p>
+          <p class="publication-venue">ACM SIGSOFT International Symposium on Software Testing and Analysis, 2025</p>
+          <div class="publication-links"><a href="https://dl.acm.org/doi/pdf/10.1145/3728940" target="_blank" rel="noopener noreferrer">PDF</a><a href="https://github.com/wLinHoo/ClassEval-T" target="_blank" rel="noopener noreferrer">Code</a></div>
+          <ul class="publication-highlights">
+            <li>Built a Python, Java, and C++ benchmark through more than 360 person-hours of curation.</li>
+            <li>Designed three translation strategies for practical class-level translation scenarios.</li>
+            <li>Analyzed more than 1,200 failure cases to characterize common LLM translation errors.</li>
+          </ul>
+        </div>
+      </article>
 
-**Shandong University** (2021 - 2026)
+      <article class="publication-card">
+        <figure class="publication-visual">
+          <img src="{{ '/images/debugrepair.png' | relative_url }}" alt="DebugRepair self-directed debugging and patch refinement pipeline" loading="lazy">
+        </figure>
+        <div class="publication-content">
+          <div class="tag-row"><span class="venue-tag venue-tag--preprint">Preprint '26</span></div>
+          <h4>DebugRepair: Enhancing LLM-Based Automated Program Repair via Self-Directed Debugging</h4>
+          <p class="publication-authors"><strong class="self-author">Linhao Wu</strong>, Yifei Pei, Zhen Yang, Kainan Li, Zhonghang Lu, Hao Tan, Xiran Lyu, Jia Li, Yizhou Chen, Pengyu Xue, Kunwu Zheng, Dan Hao.</p>
+          <p class="publication-venue">arXiv:2604.19305, 2026</p>
+          <div class="publication-links"><a href="https://arxiv.org/pdf/2604.19305" target="_blank" rel="noopener noreferrer">PDF</a></div>
+          <ul class="publication-highlights">
+            <li>Proposed a self-directed debugging framework for LLM-based automated program repair.</li>
+            <li>Combined test semantic purification, simulated instrumentation, and conversational patch refinement.</li>
+            <li>Evaluated across Defects4J, QuixBugs, and HumanEval-Java, fixing 224 Defects4J bugs with GPT-3.5.</li>
+          </ul>
+        </div>
+      </article>
 
-*B.Eng in Information Engineering & B.A in Public Administration*  
+      <article class="publication-card">
+        <figure class="publication-visual">
+          <img src="{{ '/images/icsme.png' | relative_url }}" alt="Metamorphic testing framework for evaluating LLM-powered program repair" loading="lazy">
+        </figure>
+        <div class="publication-content">
+          <div class="tag-row"><span class="venue-tag venue-tag--preprint">Preprint '24</span></div>
+          <h4>Exploring and Lifting the Robustness of LLM-Powered Automated Program Repair with Metamorphic Testing</h4>
+          <p class="publication-authors">Pengyu Xue<sup>*</sup>, <strong class="self-author">Linhao Wu<sup>*</sup></strong>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, Jingwen Wu.</p>
+          <p class="publication-venue">arXiv:2410.07516, 2024</p>
+          <div class="publication-links"><a href="https://arxiv.org/pdf/2410.07516.pdf" target="_blank" rel="noopener noreferrer">PDF</a></div>
+          <ul class="publication-highlights">
+            <li>Created the MT-LAPR testing framework with nine metamorphic relations.</li>
+            <li>Systematically revealed robustness deficiencies in LLM-powered automated program repair.</li>
+            <li>Integrated a CodeT5-based model that improved readability and robustness by 49.32%.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
 
-<span class='anchor' id='news'></span>
+    <div class="subsection-heading subsection-heading--archive">
+      <div>
+        <p class="section-eyebrow">Additional publications</p>
+        <h3>Other Work</h3>
+      </div>
+      <p class="archive-intro">A compact record of recent publications and preprints.</p>
+    </div>
 
-# 🔥 News
-- *2026.06*: &nbsp;🎉🎉 One paper accepted to *the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'26)*!
-- *2025.12*: &nbsp;🎉🎉 One paper accepted to *the ACM International Conference on the Foundations of Software Engineering (FSE'26)*!
-- *2025.03*: &nbsp;🎉🎉 One paper accepted to *the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA'25)*!
-- *2024.10*: &nbsp;🎉🎉 One paper accepted at *IEEE Transactions on Software Engineering (TSE 2024)*!
+    <div class="archive-year-group">
+      <p class="archive-year">2026</p>
+      <div class="archive-list">
+        <article class="archive-work">
+          <div class="archive-meta"><span class="archive-status">FSE '26</span><span class="tag--ccf">CCF-A</span></div>
+          <h4>TransLibEval: Demystify Large Language Models’ Capability in Third-Party Library-Targeted Code Translation</h4>
+          <a class="archive-link" href="https://arxiv.org/pdf/2509.12087" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="archive-work">
+          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
+          <h4>Toward Executable Repository-Level Code Generation via Environment Alignment</h4>
+          <a class="archive-link" href="https://arxiv.org/pdf/2604.03622" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="archive-work">
+          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
+          <h4>Persistent Cross-Attempt State Optimization for Repository-Level Code Generation</h4>
+          <a class="archive-link" href="https://arxiv.org/pdf/2604.03632" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="archive-work">
+          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
+          <h4>Fixturize: Bridging the Fixture Gap in Test Generation</h4>
+          <a class="archive-link" href="https://arxiv.org/pdf/2601.06615" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="archive-work">
+          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
+          <h4>Porting Declarative UI to HarmonyOS: A Heuristic-guided LLM Approach</h4>
+          <a class="archive-link" href="https://arxiv.org/pdf/2606.07085" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="archive-work">
+          <div class="archive-meta"><span class="archive-status">npj Natural Hazards '26</span></div>
+          <h4>Rescue plan intelligent generation for natural disasters: an integrated approach based on Large Language Models</h4>
+          <a class="archive-link" href="https://doi.org/10.1038/s44304-026-00232-5" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </div>
 
-<span class='anchor' id='publications'></span>
+    <div class="archive-year-group">
+      <p class="archive-year">2025</p>
+      <div class="archive-list">
+        <article class="archive-work">
+          <div class="archive-meta"><span class="archive-status">Preprint</span></div>
+          <h4>DISTINCT: A Description-Guided Branch-Consistency Analysis Framework for Non-Regressive Test Case Generation</h4>
+          <a class="archive-link" href="https://arxiv.org/pdf/2506.07486" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </div>
+  </section>
 
-# 📝 Publications 
+  <section class="home-section" id="honors-and-awards" aria-labelledby="honors-title">
+    <div class="section-heading">
+      <p class="section-index">05 · Recognition</p>
+      <h2 id="honors-title">Honors and Awards</h2>
+    </div>
+    <div class="honors-grid">
+      <article><time>2026</time><p>Honorary Bachelor's Degree, Shandong University</p></article>
+      <article><time>2026</time><p>Outstanding Graduate, Shandong University</p></article>
+      <article><time>2025</time><p>Presidential Scholarship Candidate – Research Innovation Category, Shandong University <span>Top 0.1%</span></p></article>
+      <article><time>2024</time><p>ICM Honorable Mention – Interdisciplinary Contest in Modeling</p></article>
+      <article><time>2022–2023</time><p>New 120th Anniversary Social Scholarship, Shandong University <span>Top 0.5%</span></p></article>
+      <article><time>2022–2023</time><p>First-Class Outstanding Student Award, Shandong University <span>Top 0.8%</span></p></article>
+    </div>
+  </section>
 
-<span style="color:#5E81AC"> <sup>*</sup> **Equal contribution** </span>
+  <section class="home-section" id="internship-experience" aria-labelledby="experience-title">
+    <div class="section-heading">
+      <p class="section-index">06 · Experience</p>
+      <h2 id="experience-title">Internship &amp; Research Experience</h2>
+    </div>
+    <div class="experience-list">
+      <article>
+        <p class="experience-role">Research Assistant</p>
+        <h3>Shandong University – Research Center for Architecture and Embedded Systems</h3>
+        <p>Automated Commit Message Generation with Large Language Models; Class-Level Code Translation Benchmark: ClassEval-T</p>
+      </article>
+      <article>
+        <p class="experience-role">Research Assistant</p>
+        <h3>Shandong University – Smart National Governance Laboratory</h3>
+        <p>AI-Driven Dynamic Decision-Making for Catastrophic Emergency Response</p>
+      </article>
+    </div>
+  </section>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISSTA 2026</div><img src='images/causalrepair.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**CausalRepair: Bridging the Causality Gap in Large Language Model-Based Automated Program Repair via Dual-Slicing**  
-<ins>**Linhao Wu**</ins>, Yizhou Chen, Zhen Yang, Pengyu Xue, Dan Hao.
+  <section class="home-section" id="academic-activities" aria-labelledby="activities-title">
+    <div class="section-heading">
+      <p class="section-index">07 · Community</p>
+      <h2 id="activities-title">Academic Activities</h2>
+    </div>
+    <div class="activities-grid">
+      <article><span>Oral Presentation</span><p>China Information Fusion Conference 2023</p></article>
+      <article><span>Poster Presentation</span><p>National Big Data &amp; Social Computing Conference 2024</p></article>
+    </div>
+  </section>
 
-*ISSTA 2026* (CCF-A Conference)，2026
-[[PDF](https://arxiv.org/pdf/2608.10613)] | [[Code](https://github.com/wLinHoo/CausalRepair)]
-- Proposed CausalRepair, a conversation-driven APR framework that bridges the causality gap through minimal causal context
-- Designed a dual-slicing strategy combining test-side context-aware static slicing and source-side execution-trace-based dynamic slicing
-- Achieved state-of-the-art performance on Defects4J, correctly fixing 313 bugs with DeepSeek-V3 at an average repair cost of only $0.029 per bug
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE 2024</div><img src='images/tse.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**Automated commit message generation with large language models: An empirical study and beyond**  
-Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhongxing Yu, Zhi Jin, Zhen Yang, Xinyi Li, Zhenyu Yang, Yue Tan.
-
-*IEEE Transactions on Software Engineering* (CCF-A Journal), 2024  
-[[PDF](https://ieeexplore.ieee.org/document/10713474)] | [[Code](https://github.com/Pengyu03/LLM-Commit-Message-Generation)]
-- Curated high-quality dataset through multi-step filtering
-- Led first comprehensive evaluation of LLMs for commit message generation
-- A context-learning framework based on retrieval, ERICommiter, was developed to significantly improve efficiency and performance in CMG tasks
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ISSTA 2025</div><img src='images/ClassT.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**ClassEval-T: Evaluating Large Language Models in Class-Level Code Translation**  
-Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Chengyi Wang, Xiang Li, Yuxiang Zhang, Jia Li, Ruikai Jin, Yifei Pei, Zhaoyan Shen, Xiran Lyu, Jacky Wai Keung.
-
-*ISSTA 2025* (CCF-A Conference)，2025
-[[PDF](https://dl.acm.org/doi/pdf/10.1145/3728940)] | [[Code](https://github.com/wLinHoo/ClassEval-T)]
-- Built ClassEval-T benchmark covering Python/Java/C++ (360+ person-hours)
-- Designed three novel translation strategies for real-world scenarios
-- A manual analysis of more than 1200 failure cases summarizes the common types of errors that LLMs makes in class-level code translation tasks
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2026</div><img src='images/debugrepair.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**DebugRepair: Enhancing LLM-Based Automated Program Repair via Self-Directed Debugging**  
-<ins>**Linhao Wu**</ins>, Yifei Pei, Zhen Yang, Kainan Li, Zhonghang Lu, Hao Tan, Xiran Lyu, Jia Li, Yizhou Chen, Pengyu Xue, Kunwu Zheng, Dan Hao.
-
-*arXiv preprint arXiv:2604.19305*, 2026 [[PDF](https://arxiv.org/pdf/2604.19305)]
-
-- Proposed DebugRepair, a self-directed debugging framework that enhances LLM-based automated program repair
-- Designed a debugging-driven repair pipeline combining test semantic purification, simulated instrumentation, and conversational patch refinement
-- Achieved state-of-the-art performance across Defects4J, QuixBugs, and HumanEval-Java, fixing 224 Defects4J bugs with GPT-3.5
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv preprint 2024</div><img src='images/icsme.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-  
-**Exploring and lifting the robustness of LLM-powered automated program repair with metamorphic testing**  
-Pengyu Xue*, <ins>**Linhao Wu***</ins>, Zhen Yang, Zhongxing Yu, Zhi Jin, Ge Li, Yan Xiao, Shuo Liu, Xinyi Li, Hongyi Lin, and Jingwen Wu.
-
-*arXiv preprint arXiv:2410.07516*, 2024 [[PDF](https://arxiv.org/pdf/2410.07516.pdf)]
-
-- Created MT-LAPR testing framework with 9 metamorphic relations
-- Tested LLMs and ultimately revealed their robustness deficiencies in the APR task.
-- Integrated CodeT5-based model improving code readability and LLMs' robustness by 49.32%
-</div>
-</div>
-
-
-<span class='anchor' id='honors-and-awards'></span>
-
-# 🏆 Honors and Awards
-
-- *2026* Honorary Bachelor's Degree, Shandong University
-- *2026* Outstanding Graduate, Shandong University
-- *2025* Presidential Scholarship Candidate – Research Innovation Category, Shandong University (Top 0.1%)
-- *2024* ICM Honorable Mention - Interdisciplinary Contest in Modeling
-- *2022-2023* New 120th Anniversary Social Scholarship, Shandong University (Top 0.5%)
-- *2022-2023* First-Class Outstanding Student Award, Shandong University (Top 0.8%)
-
-<span class='anchor' id='internship-experience'></span>
-
-# 🏢 Internship Experience
-- ### **Shandong University – Research Center for Architecture and Embedded Systems**  
-  - **Position**: Research Assistant  
-  - **Project**: Automated Commit Message Generation with Large Language Models; Class-Level Code Translation Benchmark: ClassEval-T  
-
-- ### **Shandong University – Smart National Governance Laboratory**  
-  - **Position**: Research Assistant  
-  - **Project**: AI-Driven Dynamic Decision-Making for Catastrophic Emergency Response  
-
-<span class='anchor' id='academic-activities'></span>
-
-# 📊 Academic Activities
-- **Oral Presentation**: China Information Fusion Conference 2023
-- **Poster Presentation**: National Big Data & Social Computing Conference 2024
-
-<div align="center" style="width:180px; height:180px;">
-  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=VyKDMn16TYZSW5UsOLr1LSBU4S3mAARf2IDYDV0u0ew"></script>
+  <footer class="visitor-map" aria-label="Visitor map">
+    <p>Visitors around the world</p>
+    <div class="visitor-map__globe">
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=VyKDMn16TYZSW5UsOLr1LSBU4S3mAARf2IDYDV0u0ew"></script>
+    </div>
+  </footer>
 </div>

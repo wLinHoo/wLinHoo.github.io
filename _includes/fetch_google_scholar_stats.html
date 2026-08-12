@@ -6,13 +6,18 @@
         var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitation = data['citedby'];
+            var totalCitationElement = document.getElementById('total_cit');
+            if (totalCitationElement) {
+                totalCitationElement.textContent = totalCitation;
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+                var publication = data['publications'] && data['publications'][paperId]
+                if (publication) {
+                    element.textContent = '| Citations: ' + publication['num_citations'];
+                }
             });
         });
     })
