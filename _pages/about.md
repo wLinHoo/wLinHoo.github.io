@@ -141,7 +141,7 @@ redirect_from:
       </div>
     </details>
 
-    <details class="publication-category">
+    <details class="publication-category" open>
       <summary class="publication-category__summary">
         <span class="publication-category__icon" aria-hidden="true">▤</span>
         <span>Other Work</span>
@@ -231,8 +231,8 @@ redirect_from:
       <h2 id="activities-title">Academic Activities</h2>
     </div>
     <div class="activities-list">
-      <article class="activity-row"><span>Oral Presentation</span><p>China Information Fusion Conference 2023</p></article>
-      <article class="activity-row"><span>Poster Presentation</span><p>National Big Data &amp; Social Computing Conference 2024</p></article>
+      <article class="activity-row"><span>Oral Presentation</span><p>China Information Fusion Conference, 2023</p></article>
+      <article class="activity-row"><span>Poster Presentation</span><p>National Big Data &amp; Social Computing Conference, 2024</p></article>
     </div>
   </section>
 
