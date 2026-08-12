@@ -9,20 +9,8 @@ redirect_from:
 ---
 
 <div class="research-home">
-  <header class="home-hero" id="about-me">
-    <p class="hero-kicker">AI for Software Engineering · Research Archive</p>
-    <h1>Linhao Wu</h1>
-    <p class="hero-lead">I study how large language models can understand, translate, test, and repair real-world software.</p>
-    <div class="hero-topics" aria-label="Research interests">
-      <span>Code Translation</span>
-      <span>Program Repair</span>
-      <span>Program Understanding</span>
-    </div>
-  </header>
-
-  <section class="home-section home-section--about" aria-labelledby="about-title">
+  <section class="home-section home-section--about" id="about-me" aria-labelledby="about-title">
     <div class="section-heading">
-      <p class="section-index">01 · Profile</p>
       <h2 id="about-title">About Me</h2>
     </div>
     <div class="about-copy">
@@ -32,33 +20,12 @@ redirect_from:
       <p>I have published in <strong>top-tier venues</strong>, including <em>IEEE Transactions on Software Engineering</em> and the ACM SIGSOFT International Symposium on Software Testing and Analysis.</p>
     </div>
     <aside class="availability-note" aria-label="Internship availability">
-      <span class="availability-dot" aria-hidden="true"></span>
       I am actively looking for an internship position in AI, LLM, or AI4SE.
     </aside>
   </section>
 
-  <section class="home-section" id="education" aria-labelledby="education-title">
-    <div class="section-heading">
-      <p class="section-index">02 · Background</p>
-      <h2 id="education-title">Education</h2>
-    </div>
-    <div class="timeline-grid">
-      <article class="timeline-card">
-        <p class="timeline-date">2026 — Present</p>
-        <h3>Peking University</h3>
-        <p>M.S. in Computer Science and Technology</p>
-      </article>
-      <article class="timeline-card">
-        <p class="timeline-date">2021 — 2026</p>
-        <h3>Shandong University</h3>
-        <p>B.Eng in Information Engineering &amp; B.A in Public Administration</p>
-      </article>
-    </div>
-  </section>
-
   <section class="home-section" id="news" aria-labelledby="news-title">
     <div class="section-heading">
-      <p class="section-index">03 · Updates</p>
       <h2 id="news-title">News</h2>
     </div>
     <ol class="news-list">
@@ -69,10 +36,31 @@ redirect_from:
     </ol>
   </section>
 
+  <section class="home-section" id="education" aria-labelledby="education-title">
+    <div class="section-heading">
+      <h2 id="education-title">Education</h2>
+    </div>
+    <div class="resume-list">
+      <article class="resume-row">
+        <time datetime="2026">2026 — Present</time>
+        <div class="resume-row__body">
+          <h3>Peking University</h3>
+          <p>M.S. in Computer Science and Technology</p>
+        </div>
+      </article>
+      <article class="resume-row">
+        <time datetime="2021">2021 — 2026</time>
+        <div class="resume-row__body">
+          <h3>Shandong University</h3>
+          <p>B.Eng in Information Engineering &amp; B.A in Public Administration</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
   <section class="home-section publications-section" id="publications" aria-labelledby="publications-title">
     <div class="section-heading">
-      <p class="section-index">04 · Publications</p>
-      <h2 id="publications-title">Selected Research</h2>
+      <h2 id="publications-title">Publications</h2>
     </div>
 
     <div class="subsection-heading">
@@ -233,22 +221,20 @@ redirect_from:
 
   <section class="home-section" id="honors-and-awards" aria-labelledby="honors-title">
     <div class="section-heading">
-      <p class="section-index">05 · Recognition</p>
       <h2 id="honors-title">Honors and Awards</h2>
     </div>
-    <div class="honors-grid">
-      <article><time>2026</time><p>Honorary Bachelor's Degree, Shandong University</p></article>
-      <article><time>2026</time><p>Outstanding Graduate, Shandong University</p></article>
-      <article><time>2025</time><p>Presidential Scholarship Candidate – Research Innovation Category, Shandong University <span>Top 0.1%</span></p></article>
-      <article><time>2024</time><p>ICM Honorable Mention – Interdisciplinary Contest in Modeling</p></article>
-      <article><time>2022–2023</time><p>New 120th Anniversary Social Scholarship, Shandong University <span>Top 0.5%</span></p></article>
-      <article><time>2022–2023</time><p>First-Class Outstanding Student Award, Shandong University <span>Top 0.8%</span></p></article>
+    <div class="honors-list">
+      <article class="honor-row"><time>2026</time><p>Honorary Bachelor's Degree, Shandong University</p></article>
+      <article class="honor-row"><time>2026</time><p>Outstanding Graduate, Shandong University</p></article>
+      <article class="honor-row"><time>2025</time><p>Presidential Scholarship Candidate – Research Innovation Category, Shandong University <span>Top 0.1%</span></p></article>
+      <article class="honor-row"><time>2024</time><p>ICM Honorable Mention – Interdisciplinary Contest in Modeling</p></article>
+      <article class="honor-row"><time>2022–2023</time><p>New 120th Anniversary Social Scholarship, Shandong University <span>Top 0.5%</span></p></article>
+      <article class="honor-row"><time>2022–2023</time><p>First-Class Outstanding Student Award, Shandong University <span>Top 0.8%</span></p></article>
     </div>
   </section>
 
   <section class="home-section" id="internship-experience" aria-labelledby="experience-title">
     <div class="section-heading">
-      <p class="section-index">06 · Experience</p>
       <h2 id="experience-title">Internship &amp; Research Experience</h2>
     </div>
     <div class="experience-list">
@@ -267,12 +253,11 @@ redirect_from:
 
   <section class="home-section" id="academic-activities" aria-labelledby="activities-title">
     <div class="section-heading">
-      <p class="section-index">07 · Community</p>
       <h2 id="activities-title">Academic Activities</h2>
     </div>
-    <div class="activities-grid">
-      <article><span>Oral Presentation</span><p>China Information Fusion Conference 2023</p></article>
-      <article><span>Poster Presentation</span><p>National Big Data &amp; Social Computing Conference 2024</p></article>
+    <div class="activities-list">
+      <article class="activity-row"><span>Oral Presentation</span><p>China Information Fusion Conference 2023</p></article>
+      <article class="activity-row"><span>Poster Presentation</span><p>National Big Data &amp; Social Computing Conference 2024</p></article>
     </div>
   </section>
 
