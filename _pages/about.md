@@ -236,10 +236,4 @@ redirect_from:
     </div>
   </section>
 
-  <footer class="visitor-map" aria-label="Visitor map">
-    <p>Visitors around the world</p>
-    <div class="visitor-map__globe">
-      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=VyKDMn16TYZSW5UsOLr1LSBU4S3mAARf2IDYDV0u0ew"></script>
-    </div>
-  </footer>
 </div>
