@@ -32,7 +32,7 @@ redirect_from:
       <li><time datetime="2026-06">2026.06</time><span>One paper accepted to the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA '26).</span></li>
       <li><time datetime="2025-12">2025.12</time><span>One paper accepted to the ACM International Conference on the Foundations of Software Engineering (FSE '26).</span></li>
       <li><time datetime="2025-03">2025.03</time><span>One paper accepted to the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA '25).</span></li>
-      <li><time datetime="2024-10">2024.10</time><span>One paper accepted at IEEE Transactions on Software Engineering (TSE 2024).</span></li>
+      <li><time datetime="2024-10">2024.10</time><span>One paper accepted at IEEE Transactions on Software Engineering (TSE).</span></li>
     </ol>
   </section>
 
